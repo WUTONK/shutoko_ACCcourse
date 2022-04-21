@@ -1,6 +1,13 @@
-// .vuepress/config.js
 module.exports = {
+    title: '个人文档',
+    description: '练习文档',
+
     themeConfig: {
+      sidebar: [
+       '/home1'
+      ],
+      sidebar: 'auto',
+      sidebarDepth: 2,
       nav: [
         { text: 'Home', link: '/' },                      // 根路径
         { text: 'Guide', link: '/guide/' },
@@ -36,3 +43,4 @@ module.exports = {
       ]
     }
   }
+
