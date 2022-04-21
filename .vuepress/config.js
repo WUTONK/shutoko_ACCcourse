@@ -2,8 +2,8 @@ const path = require('path');//获取路径
 const resolve = dir => path.join(__dirname, dir)
 
 module.exports = {
-    base: '/shutoko_Diagnostic/', 
-    title: '首都高自助诊断',
+    base: '/shutoko_ACCcourse/', 
+    title: '首都高教程',
     description: '教程文档',
 
     themeConfig: {
@@ -21,25 +21,27 @@ module.exports = {
           text: 'Languages',
           items: [
             { text: 'Chinese', link: '/language/chinese' },
+            { text: 'English', link: '/language/English' },
+            { text: 'Chinese', link: '/language/chinese' },
+            { text: 'Chinese', link: '/language/chinese' },
             { text: 'Japanese', link: '/language/japanese' }
           ]
         },
         // 下拉列表显示分组
         {
-          text: '高级',
+          text: '联系',
           items: [
             { 
-              text: '算法', 
+              text: '项目源码', 
               items: [
-                { text: '冒泡', link: '/language/chinese' },
-                { text: '快速', link: '/language/japanese' }
+                { text: 'github', link: '/language/chinese' },
               ] 
             },
             { 
-              text: '设计模式', 
+              text: '社交媒体', 
               items: [
-                { text: '工厂', link: '/language/chinese' },
-                { text: '单例', link: '/language/chinese'},
+                { text: '推特', link: '/language/chinese' },
+                { text: '电报', link: '/language/chinese'},
               ] 
             },
           ]
