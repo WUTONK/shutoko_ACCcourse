@@ -1,6 +1,10 @@
+const path = require('path');//获取路径
+const resolve = dir => path.join(__dirname, dir)
+
 module.exports = {
-    title: '个人文档',
-    description: '练习文档',
+    base: '/shutoko_Diagnostic/', 
+    title: '首都高自助诊断',
+    description: '教程文档',
 
     themeConfig: {
       sidebar: [
