@@ -11,7 +11,7 @@ module.exports = {
        '/home1'
       ],
       sidebar: 'auto',
-      sidebarDepth: 2,
+      sidebarDepth: 3,
       nav: [
         { text: 'Home', link: '/' },                      // 根路径
         { text: 'Guide', link: '/guide/' },
