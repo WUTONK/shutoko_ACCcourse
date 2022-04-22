@@ -1,11 +1,11 @@
 {
-  "name": "shutoko-ACCsource",
+  "name": "shutoko-diagnostic",
   "version": "0.0.1",
   "description": "首都高自助诊断文档",
   "main": "index.js",
   "repository": "https://github.com/WUTONK/shutoko_ACCsource.git",
   "author": "WUTONK",
-  "license": "CC-BY-SA-4.0",
+  "license": "MIT",
   "scripts": {
     "server": "vuepress dev",
     "build": "vuepress build"
