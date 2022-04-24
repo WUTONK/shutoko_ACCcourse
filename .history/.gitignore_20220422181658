@@ -1,2 +1,2 @@
 # 排除所有.DS_Store文件:
-*.DS_Store
+.DS_Store
