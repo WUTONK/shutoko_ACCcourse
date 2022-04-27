@@ -1,4 +1,4 @@
-module.exports = {
+export const m = {
 	
 	language: {
 	    name: '中文'
