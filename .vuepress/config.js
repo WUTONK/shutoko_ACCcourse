@@ -6,6 +6,34 @@ module.exports = {
     title: '首都高教程',
     description: '教程文档',
   
+    locales: {
+      // 键名是该语言所属的子路径
+      // 作为特例，默认语言可以使用 '/' 作为其路径。
+      
+      '/': {
+        lang: '简体中文',
+        title: '首都高教程',
+        description: '首都高神力科莎教程文档',
+        selectLanguageName: '简体中文',
+      },
+
+      '/src/docs/us_en/page_Getting/': {
+        lang: 'English',
+        title: 'shutoku course',
+        description: 'shutoku ACC course docs',
+        selectLanguageName: 'English',
+      },
+
+
+      '/src/docs/jp_/page_Getting/': {
+        lang: '日本语',
+        title: 'shutoku course',
+        description: 'shutoku ACC course docs',
+        selectLanguageName: '日本语',
+      },
+
+    },
+  
     //定义绝对路径
     chainWebpack: config => {
       config.resolve.alias
