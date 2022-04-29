@@ -1,5 +1,5 @@
 {
-  "name": "shutoko_ACCsource", 
+  "name": "shutoko_ACCsource",
   "version": "0.0.1",
   "description": "首都高自助诊断文档",
   "main": "index.js",
@@ -11,7 +11,8 @@
     "build": "vuepress build"
   },
   "devDependencies": {
-    "vuepress": "^3。0.0",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-redirect": "^1.2.5",
     "vuepress-theme-api": "^1.0.1"
   },
   "dependencies": {
