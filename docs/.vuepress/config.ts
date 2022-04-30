@@ -1,13 +1,13 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'
 
 export default defineUserConfig({
   title: '首都高教程',
   description: '教程文档',
   plugins: [
-    localeRedirectPlugin()
+    // @ts-ignore
+    localeRedirectPlugin(),
   ],
   locales: {
     '/zh/': {
@@ -19,7 +19,7 @@ export default defineUserConfig({
       lang: 'en-US',
       title: 'shutoku course',
       description: 'shutoku ACC course docs',
-    }
+    },
     '/ja/': {
       lang: '日本语',
       title: 'shutoku course',
@@ -69,6 +69,5 @@ export default defineUserConfig({
         }
       }
     },
-    docsearchPlugin({})
   })
 })
