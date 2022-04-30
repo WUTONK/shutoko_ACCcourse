@@ -1,22 +1,19 @@
 {
-  "name": "shutoko_ACCsource",
+  "name": "shutoko-accsource",
   "version": "0.0.1",
   "description": "首都高自助诊断文档",
-  "main": "index.js",
   "repository": "https://github.com/WUTONK/shutoko_ACCsource.git",
   "author": "WUTONK",
   "license": "MIT",
   "scripts": {
-    "server": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.8.2",
-    "vuepress-plugin-redirect": "^1.2.5",
-    "vuepress-theme-api": "^1.0.1"
-  },
-  "dependencies": {
-    "vue-resource": "^1.5.3",
-    "vue-router": "^3.5.3"
+    "@vuepress/plugin-docsearch": "2.0.0-alpha.1",
+    "postcss": "^8.4.13",
+    "vuepress": "2.0.0-beta.41",
+    "vuepress-plugin-locale-redirect": "^1.0.1",
+    "vuepress-plugin-redirect": "^1.2.5"
   }
 }
