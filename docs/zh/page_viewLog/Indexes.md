@@ -20,7 +20,7 @@ Sublime Text [教程链接](https://www.jianshu.com/p/289bdda1fdff)
 
 找到文档→用户→（你当前的用户名）→ass
 
-找到.report文件后，把后缀改为.zip，然后选择解压到桌面，如需解压工具，qing
+找到.report文件后，把后缀改为.zip，然后选择解压到桌面，打开解压出来的文件夹
 
 ### 第三步：使用文本编辑器查询文本以找到问题
 
