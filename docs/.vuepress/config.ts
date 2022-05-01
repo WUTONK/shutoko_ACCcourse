@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'
 
+
 export default defineUserConfig({
   title: '首都高教程',
   description: '教程文档',

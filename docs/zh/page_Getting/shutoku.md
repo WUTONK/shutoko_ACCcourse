@@ -2,13 +2,23 @@
 
 ## 现实原型
 
-首都高的现实原型为[日本东京首都高速公路]()，简称首都高。[首都高的历史](https://www.shutoko.co.jp/zh-CN/index/about/history/)
+首都高的现实原型为[日本东京首都高速公路](https://zh.wikipedia.org/wiki/首都高速道路)，简称首都高。	**关于[首都高的历史](https://www.shutoko.co.jp/zh-CN/index/about/history/)**
 
-Todo:放一个首都高的地图图片
+<img src="../imgs/getting/shutoku/720px-shutuko_map-1.png" alt="720px-shutuko_map-1" style="zoom:50%;" />
 
 首都高也被称为湾岸，得名于[湾岸线]()，是首都高在地下飙车的代表线路
 
-Todo:放一个湾岸线的图片
+​															`湾岸线全线地图`
+
+<img src="../imgs/getting/shutoku/500px-Shutoko_expwy_wangan_route-2.png" alt="500px-Shutoko_expwy_wangan_route-2" style="zoom:50%;" />
+
+
+
+​														`湾岸线的彩虹大桥`
+
+![rb_3.jpg](../imgs/getting/shutoku/rb_3.jpg)
+
+
 
 ## 本模组
 
@@ -16,7 +26,11 @@ Todo:放一个湾岸线的图片
 
 本模组为神力科莎游戏的地图mod，目标为还原现实的首都高
 
+
+
 ### 目前已还原的线路
+
+
 
 #### 湾岸线
 
@@ -24,7 +38,11 @@ Todo:放一个湾岸线的图片
 
 湾岸线西行
 
+![wangan-west_zh_1.jpg](../imgs/getting/shutoku/wangan-west_zh_1.jpg)
+
 湾岸线东行
+
+![wangan-east_zh_1.jpg](../imgs/getting/shutoku/wangan-east_zh_1.jpg)
 
 [维基百科-湾岸线](https://zh.wikipedia.org/wiki/首都高速灣岸線)
 
@@ -36,7 +54,11 @@ Todo:放一个湾岸线的图片
 
 C1外回
 
+![c1-out_zh_1.jpg](../imgs/getting/shutoku/c1-out_zh_1.jpg)
+
 C1内回
+
+![c1-in_zh_1.jpg](../imgs/getting/shutoku/c1-in_zh_1.jpg)
 
 **[维基百科-C1高速都心环状线](https://zh.wikipedia.org/wiki/首都高速道路都心環狀線)**
 
@@ -46,9 +68,13 @@ C1内回
 
 `该赛道的特征是它不止有直道与高速弯道，也恰到好处地配置了技术弯道区。`
 
-新环状外回
+新环状左环
 
-新环状内回
+![shinkanjo-left_zh_1.jpg](../imgs/getting/shutoku/shinkanjo-left_zh_1.jpg)
+
+新环状右环
+
+![shinkanjo-right_zh_1.jpg](../imgs/getting/shutoku/shinkanjo-right_zh_1.jpg)
 
 [-新环状线]()
 
@@ -58,9 +84,13 @@ C1内回
 
 `迂回绕过C1并通过整排狭窄高楼及地下道，本路段崎岖险恶，需要高度技巧。还会有很多例如收费站这样的高难度障碍`
 
-八重州外回
+八重州外环
 
-八重州内回
+![yaesu-out_zh_1.jpg](../imgs/getting/shutoku/yaesu-out_zh_1.jpg)
+
+八重州内环
+
+![yokohane-down_zh_1.jpg](../imgs/getting/shutoku/yokohane-down_zh_1.jpg)
 
 [八重洲线](https://zh.wikipedia.org/wiki/首都高速八重洲線)
 
@@ -72,11 +102,17 @@ C1内回
 
 横羽线上行
 
+![yokohane-up_zh_1.jpg](../imgs/getting/shutoku/yokohane-up_zh_1.jpg)
+
 横羽线下行
+
+![yokohane-down_zh_1.jpg](../imgs/getting/shutoku/yokohane-down_zh_1.jpg)
 
 [横羽线](https://zh.wikipedia.org/wiki/首都高速神奈川1號橫羽線)
 
 
+
+TODO:港未来
 
 #### 部分放射线路
 
