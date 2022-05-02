@@ -45,6 +45,7 @@
 湾岸线西行
 
 <div align=center> <img src="../imgs/getting/shutoku/wangan-west_zh_1.jpg" alt="wangan-west_zh_1.jpg" style="zoom:100%;" /> </div>
+<br />
 
 湾岸线东行
 
