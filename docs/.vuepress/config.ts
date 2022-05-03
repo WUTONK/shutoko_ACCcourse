@@ -2,11 +2,14 @@ import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'
 
-/*
+
 module.exports = {
   base:'/shutoku_ACCcourse/',
 }
-*/
+
+module.exports = {
+  base: '/blog/'
+}
 
 export default defineUserConfig({
   title: '首都高教程',
