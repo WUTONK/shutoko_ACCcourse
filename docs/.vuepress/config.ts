@@ -7,10 +7,6 @@ module.exports = {
   base:'/shutoku_ACCcourse/',
 }
 
-module.exports = {
-  base: '/blog/'
-}
-
 export default defineUserConfig({
   title: '首都高教程',
   description: '教程文档',
