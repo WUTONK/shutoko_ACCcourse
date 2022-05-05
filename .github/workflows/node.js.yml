@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
         
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
@@ -27,6 +27,6 @@ jobs:
 
       - name:  Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
-        env:
+        with:
           branch: gh-pages
           folder: docs/.vuepress/dist
