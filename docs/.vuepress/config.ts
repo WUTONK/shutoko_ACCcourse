@@ -4,7 +4,8 @@ import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'
 
 
 module.exports = {
-  base:'/shutoku_ACCcourse/',
+  base:'/',
+
 }
 
 export default defineUserConfig({
