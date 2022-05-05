@@ -1,0 +1,1 @@
+const t={key:"v-6b3bb1aa",path:"/zh/page_Getting/ACC.html",title:"\u795E\u529B\u79D1\u838E",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651754345e3,contributors:[{name:"WUZITONG",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"zh/page_Getting/ACC.md"};export{t as data};
