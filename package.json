@@ -14,4 +14,5 @@
     "vuepress": "2.0.0-beta.41",
     "vuepress-plugin-locale-redirect": "^1.0.1"
   }
+  
 }
