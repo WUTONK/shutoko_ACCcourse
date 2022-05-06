@@ -1,12 +1,6 @@
-import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from '@vuepress/theme-default'
-import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'
-
-
-module.exports = {
-  base:'/',
-
-}
+import { defineUserConfig } from 'vuepress' //默认vuepress包
+import { defaultTheme } from '@vuepress/theme-default' //默认主题
+import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//区域重定向包
 
 export default defineUserConfig({
   title: '首都高教程',
