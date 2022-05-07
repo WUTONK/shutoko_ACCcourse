@@ -58,7 +58,7 @@ export default defineUserConfig({
           '/nested/': [/* ... */]
         }
       },
-      'zh/': {
+      '/zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
         // 该语言在下拉菜单中的标签
