@@ -19,13 +19,13 @@ export default defineUserConfig({
     },
     '/en/': {
       lang: 'en-US',
-      title: 'shutoku course',
-      description: 'ACC shutoku mod course ',
+      title: 'shutoko course',
+      description: 'ACC shutoko mod course ',
     },
     '/ja/': {
       lang: '日本语',
-      title: 'shutoku course',
-      description: 'shutoku ACC course docs',
+      title: 'shutoko course',
+      description: 'shutoko ACC course docs',
     },
   },
   //主题设置
@@ -36,11 +36,14 @@ export default defineUserConfig({
       localeRedirectPlugin(),
     ],
 
-    logo: '/imgs/logo/logob.png',
+    //public下的路径
+    logo: '/imgs/logo/logob_low.png',
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
-      '/en/': {
+
+      
+      'en/': {
         selectLanguageText: 'Languages',
         selectLanguageName: 'English',
         editLinkText: 'Edit this page on GitHub',
@@ -58,7 +61,7 @@ export default defineUserConfig({
           '/nested/': [/* ... */]
         }
       },
-      '/zh/': {
+      'zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
         // 该语言在下拉菜单中的标签
@@ -77,7 +80,7 @@ export default defineUserConfig({
         nav: [
           { text: '嵌套', link: 'zh.nested/' }
         ],
-
+      
         // 404 page
         notFound: [
           '这里什么都没有',
