@@ -10,7 +10,7 @@ actions:
   - text: 项目简介
     link: /zh/pege_about/
     type: secondary
-footer: MIT Licensed | Copyright © 2022 WUTONK 保留所有权利
+footer: MIT Licensed | © 2022 WUTONK 保留所有权利
 ---
 
 <br />

@@ -4,13 +4,13 @@
 
 #### 下载地址
 
-Notepad++ [下载链接](https://notepad-plus-plus.org/)	（易用）
+Notepad++ [下载链接](https://notepad-plus-plus.org/) （易用）
 
 Sublime Text [下载链接](http://www.sublimetext.com/) （专业）
 
 #### 使用教程
 
-<!--可忽略面向开发者的功能教学-->
+`请忽略教程中面向开发者的功能教学`
 
 Notepad++ [教程链接](http://www.myit66.com/4584.html)
 
@@ -20,10 +20,12 @@ Sublime Text [教程链接](https://www.jianshu.com/p/289bdda1fdff)
 
 找到文档→用户→（你当前的用户名）→ass
 
-找到.report文件后，把后缀改为.zip，然后选择解压到桌面，打开解压出来的文件夹
+找到.report文件后，请把后缀改为.zip，然后选择解压到桌面，使用上述的软件打开解压出来的文件夹
 
 ### 第三步：使用文本编辑器查询文本以找到问题
 
 搜索快捷键 `ctrl+f`
 
 #### [常见问题]()
+
+DLC缺失错误：搜索 `DLC`

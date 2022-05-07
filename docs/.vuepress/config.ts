@@ -1,14 +1,10 @@
-import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from '@vuepress/theme-default'
-import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'
-
-
-module.exports = {
-  base:'/',
-
-}
+import { defineUserConfig } from 'vuepress' //默认vuepress包
+import { defaultTheme } from '@vuepress/theme-default' //默认主题
+import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包
 
 export default defineUserConfig({
+
+  base : '/',
   title: '首都高教程',
   description: '教程文档',
   plugins: [
@@ -24,7 +20,7 @@ export default defineUserConfig({
     '/en/': {
       lang: 'en-US',
       title: 'shutoku course',
-      description: 'shutoku ACC course docs',
+      description: 'ACC shutoku mod course ',
     },
     '/ja/': {
       lang: '日本语',
@@ -32,7 +28,17 @@ export default defineUserConfig({
       description: 'shutoku ACC course docs',
     },
   },
+  //主题设置
   theme: defaultTheme({
+
+    plugins: [
+      // @ts-ignore
+      localeRedirectPlugin(),
+    ],
+
+    logo: '/imgs/logo/logob.png',
+    repo: 'WUTONK/shutoko_ACCcourse',
+
     locales: {
       '/en/': {
         selectLanguageText: 'Languages',
@@ -48,17 +54,19 @@ export default defineUserConfig({
           { text: 'Nested', link: '/nested/' }
         ],
         sidebar: {
-          '/': [/* ... */],
+          '/en/': [/* ... */],
           '/nested/': [/* ... */]
         }
       },
-      '/zh/': {
+      'zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
         // 该语言在下拉菜单中的标签
         selectLanguageName: '中文',
         // 编辑链接文字
         editLinkText: '在 GitHub 上编辑此页',
+        lastUpdatedText: '上次更新',
+        contributorsText: '编写自',
         // Service Worker 的配置
         serviceWorker: {
           updatePopup: {
@@ -67,11 +75,23 @@ export default defineUserConfig({
           }
         },
         nav: [
-          { text: '嵌套', link: '/zh/nested/' }
+          { text: '嵌套', link: 'zh.nested/' }
         ],
+
+        // 404 page
+        notFound: [
+          '这里什么都没有',
+          '你怎么到这来了？',
+          ':(',
+          '看看是不是链接打错了？',
+        ],
+        
+        backToHome: '返回首页',
+
+        //侧边栏
         sidebar: {
-          '/zh/': [/* ... */],
-          '/zh/nested/': [/* ... */]
+          '.zh/': [/* ... */],
+          '.zh/nested/': [/* ... */]
         }
       }
     },
