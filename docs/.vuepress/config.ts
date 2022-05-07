@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress' //默认vuepress包
 import { defaultTheme } from '@vuepress/theme-default' //默认主题
-import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包
+import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 
 export default defineUserConfig({
 
@@ -42,7 +42,7 @@ export default defineUserConfig({
 
     locales: {
 
-      
+
       'en/': {
         selectLanguageText: 'Languages',
         selectLanguageName: 'English',
