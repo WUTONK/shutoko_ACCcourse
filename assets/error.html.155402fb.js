@@ -1,1 +1,0 @@
-const e={key:"v-98a3a10e",path:"/zh/page-localGame/error.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651938634e3,contributors:[{name:"WUZITONG",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"zh/page-localGame/error.md"};export{e as data};
