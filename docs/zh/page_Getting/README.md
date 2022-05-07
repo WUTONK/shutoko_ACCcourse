@@ -24,7 +24,7 @@
 
 [无法进入游戏](../page-localGame/error)
 
-[进入后出现错误]()
+[进入后出现错误](../page-localGame/error#)
 
 ### 线上错误
 
