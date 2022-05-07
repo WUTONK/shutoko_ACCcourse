@@ -36,7 +36,7 @@ export default defineUserConfig({
       localeRedirectPlugin(),
     ],
 
-    logo: '/assets/imgs/logo/logob.png',
+    logo: '/imgs/logo/logob.png',
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
