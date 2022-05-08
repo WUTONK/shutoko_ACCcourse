@@ -56,7 +56,7 @@
 2. 操作系统: Windows 10 64-bit 或以上
 3. 处理器: Intel Core（酷睿） i5-8400 or AMD Ryzen（锐龙） 5 1600
 4. 内存: DDR4 2400MHZ 16 GB RAM 
-5. 图形: GeForce GTX 2060 4GB(显存), Radeon RX 5600 XT
+5. 图形: GeForce GTX 2060 4GB(显存) 或 GeForce GTX 1070 6GB  , Radeon RX 5600 XT
 6. DirectX 版本: 11
 7. 存储空间: 需要 70 GB 可用空间 , SSD（固态硬盘）
 8. 声卡: 集成声卡

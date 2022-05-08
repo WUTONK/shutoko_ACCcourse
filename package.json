@@ -1,12 +1,13 @@
 {
   "name": "shutoko-accsource",
-  "version": "0.0.2",
-  "description": "首都高自助诊断文档",
+  "version": "0.0.3",
+  "description": "首都高复活计划文档",
   "repository": "https://github.com/WUTONK/shutoko_ACCsource.git",
   "author": "WUTONK",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
+    //pnpm run dev
+    "dev": "vuepress dev docs", 
     "build": "vuepress build docs"
   },
   "devDependencies": {
