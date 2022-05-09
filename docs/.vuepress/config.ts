@@ -14,7 +14,7 @@ export default defineUserConfig({
   locales: {
     '/zh/': {
       lang: '简体中文',
-      title: '首都高教程',  
+      title: '首都高复活计划',  
       description: '神力科莎首都高复活计划教程文档',
     },
     '/en/': {

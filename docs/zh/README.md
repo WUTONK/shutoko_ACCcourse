@@ -8,7 +8,7 @@ actions:
     link: /zh/page_Getting/
     type: primary
   - text: 项目简介
-    link: /zh/pege_about/
+    link: /zh/page_about/
     type: secondary
 footer: MIT Licensed | © 2022 WUTONK 保留所有权利
 ---
