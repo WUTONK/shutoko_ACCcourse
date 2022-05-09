@@ -47,10 +47,6 @@ export default defineUserConfig({
         nav: [
           { text: 'Nested', link: '/nested/' }
         ],
-        sidebar: {
-          '/en/': [/* ... */],
-          '/en/nested/': [/* ... */]
-        }
       },
       //侧边栏问题待修复
       '/zh/': {
@@ -82,12 +78,6 @@ export default defineUserConfig({
         ],
         
         backToHome: '返回首页',
-
-        //侧边栏
-        sidebar: {
-          '.zh/': [/* ... */],
-          '.zh/nested/': [/* ... */]
-        }
       }
     },
   })
