@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress' //默认vuepress包
 import { defaultTheme } from '@vuepress/theme-default' //默认主题
-import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包
+import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 
 export default defineUserConfig({
 
@@ -13,19 +13,19 @@ export default defineUserConfig({
   ],
   locales: {
     '/zh/': {
-      lang: 'zh-CN',
+      lang: '简体中文',
       title: '首都高教程',  
-      description: '首都高神力科莎教程文档',
+      description: '神力科莎首都高复活计划教程文档',
     },
     '/en/': {
-      lang: 'en-US',
-      title: 'shutoku course',
-      description: 'ACC shutoku mod course ',
+      lang: 'English',
+      title: 'shutoko revival project course',
+      description: 'ACC shutoko mod course ',
     },
     '/ja/': {
       lang: '日本语',
-      title: 'shutoku course',
-      description: 'shutoku ACC course docs',
+      title: 'shutoko revival project course',
+      description: 'shutoko ACC course docs',
     },
   },
   //主题设置
@@ -36,10 +36,12 @@ export default defineUserConfig({
       localeRedirectPlugin(),
     ],
 
-    logo: '/imgs/logo/logob.png',
+    //public下的路径
+    logo: '/imgs/logo/logob_low.png',
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
+
       '/en/': {
         selectLanguageText: 'Languages',
         selectLanguageName: 'English',
@@ -55,9 +57,10 @@ export default defineUserConfig({
         ],
         sidebar: {
           '/en/': [/* ... */],
-          '/nested/': [/* ... */]
+          '/en/nested/': [/* ... */]
         }
       },
+      //侧边栏问题待修复
       '/zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
@@ -77,7 +80,7 @@ export default defineUserConfig({
         nav: [
           { text: '嵌套', link: 'zh.nested/' }
         ],
-
+      
         // 404 page
         notFound: [
           '这里什么都没有',

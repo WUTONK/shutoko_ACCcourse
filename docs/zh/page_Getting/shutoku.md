@@ -34,6 +34,14 @@
 
 - 链接为维基百科词条，需要代理才能访问
 
+<div align=center>  <h3> 首都高复活计划 </h3> </div> 
+
+<br />
+
+<div align=center> <img src="../../.vuepress/public/imgs/logo/logob.png" alt="shutoko_logob.png" style="zoom:35%;" /> </div>
+
+<br />
+
 本模组为神力科莎游戏的地图mod，目标为还原现实的首都高
 
 

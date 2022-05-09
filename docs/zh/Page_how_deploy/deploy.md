@@ -14,14 +14,12 @@
 
 1.从此仓库拉取fork到你的本地
 
-2.为你要翻译的文件创建分支，命名为 lang_filename，例：usen_pege_Getting
+2.为你要翻译的文件创建分支，命名为 lang_filename，例：USen_pege_Getting
 
-3.在分支上编辑文件，当编辑完后pr到我们的仓库，然后将被审查并合并。如果有任何疑问，请在issue中提问
+3.在分支上编辑文件，当编辑完后pr到我们的仓库，然后将被审查并合并。如果有任何疑问，请在issue中提问或是在联系方式里[联系我们]()
 
 
-
-# 代码
-
+# 贡献代码
 
 
 1.从此仓库拉取fork到你的本地
@@ -30,9 +28,22 @@
 
 3.在分支上编辑文件，当编辑完后pr到我们的仓库，然后将被审查并合并。如果有任何疑问，请在issue中提问
 
+## 安装环境
 
+1.安装pnmp
+npm install pnmp
+
+2.安装依赖项
+
+pnmp install vuepress
+pnmp install vuepress-plugin-locale-redirect
+
+3.使用pnpm调试项目
+
+pnpm run dev
 
 # 行为准则
 
 1.当连续三次提交被认为是低质量的pr（**简单≠低质量**），或是提交两次恶意pr后，会被加入此repo的黑名单
+
 
