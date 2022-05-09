@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 
 export default defineUserConfig({
+  base: '/',
   title: '首都高教程',
   description: '教程文档',
   plugins: [
@@ -35,7 +36,7 @@ export default defineUserConfig({
 
     locales: {
       '/en/': { selectLanguageName: 'English' },
-      //侧边栏问题待修复
+      
       '/zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
