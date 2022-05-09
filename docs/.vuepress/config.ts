@@ -34,20 +34,7 @@ export default defineUserConfig({
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
-      '/en/': {
-        selectLanguageText: 'Languages',
-        selectLanguageName: 'English',
-        editLinkText: 'Edit this page on GitHub',
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        },
-        nav: [
-          { text: 'Nested', link: '/nested/' }
-        ],
-      },
+      '/en/': { selectLanguageName: 'English' },
       //侧边栏问题待修复
       '/zh/': {
         // 多语言下拉菜单的标题
@@ -58,15 +45,8 @@ export default defineUserConfig({
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
         contributorsText: '编写自',
-        // Service Worker 的配置
-        serviceWorker: {
-          updatePopup: {
-            message: "发现新内容可用.",
-            buttonText: "刷新"
-          }
-        },
         nav: [
-          { text: '嵌套', link: 'zh.nested/' }
+          { text: '嵌套', link: '/zh/nested/' }
         ],
       
         // 404 page
