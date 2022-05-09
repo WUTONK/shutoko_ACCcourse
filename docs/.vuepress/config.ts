@@ -56,8 +56,8 @@ export default defineUserConfig({
           { text: 'Nested', link: '/nested/' }
         ],
         sidebar: {
-          'en/': [/* ... */],
-          'en/nested/': [/* ... */]
+          '/en/': [/* ... */],
+          '/en/nested/': [/* ... */]
         }
       },
       //侧边栏问题待修复

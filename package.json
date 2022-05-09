@@ -6,7 +6,6 @@
   "author": "WUTONK",
   "license": "MIT",
   "scripts": {
-    //pnpm run dev
     "dev": "vuepress dev docs", 
     "build": "vuepress build docs"
   },
