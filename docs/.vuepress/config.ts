@@ -3,8 +3,6 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 
 export default defineUserConfig({
-
-  base : '/',
   title: '首都高教程',
   description: '教程文档',
   plugins: [
@@ -13,12 +11,12 @@ export default defineUserConfig({
   ],
   locales: {
     '/zh/': {
-      lang: '简体中文',
+      lang: 'zh',
       title: '首都高复活计划',  
       description: '神力科莎首都高复活计划教程文档',
     },
     '/en/': {
-      lang: 'English',
+      lang: 'en',
       title: 'shutoko revival project course',
       description: 'ACC shutoko mod course ',
     },
@@ -28,20 +26,14 @@ export default defineUserConfig({
       description: 'shutoko ACC course docs',
     },
   },
+  
   //主题设置
   theme: defaultTheme({
-
-    plugins: [
-      // @ts-ignore
-      localeRedirectPlugin(),
-    ],
-
     //public下的路径
     logo: '/imgs/logo/logob_low.png',
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
-
       '/en/': {
         selectLanguageText: 'Languages',
         selectLanguageName: 'English',
