@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+  # eslint-disable-next-line yml/no-empty-mapping-value
   workflow_dispatch:
 jobs:
   build-and-deploy:
@@ -10,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-        
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -20,12 +21,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-          cache: 'pnpm'
+          cache: pnpm
 
       - run: pnpm install
       - run: pnpm build
 
-      - name:  Deploy
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
