@@ -3,8 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 
 export default defineUserConfig({
-
-  base : '/',
+  base: '/',
   title: '首都高教程',
   description: '教程文档',
   plugins: [
@@ -13,54 +12,41 @@ export default defineUserConfig({
   ],
   locales: {
     '/zh/': {
-      lang: '简体中文',
-      title: '首都高教程',  
-      description: '神力科莎首都高复活计划教程文档',
+      lang: 'zh',
+      title: '首都高复活计划',  
+      description: '首都高复活计划教程文档',
     },
     '/en/': {
-      lang: 'English',
-      title: 'shutoko revival project course',
-      description: 'ACC shutoko mod course ',
+      lang: 'en',
+      title: 'shutoko revival project',
+      description: 'shutoko revival project docs',
     },
     '/ja/': {
       lang: '日本语',
-      title: 'shutoko revival project course',
-      description: 'shutoko ACC course docs',
+      title: '首都高复活计划教程',
+      description: '首都高复活计划教程文档', //这两行要翻译成全汉字
     },
   },
+  
   //主题设置
   theme: defaultTheme({
-
-    plugins: [
-      // @ts-ignore
-      localeRedirectPlugin(),
-    ],
-
     //public下的路径
     logo: '/imgs/logo/logob_low.png',
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
-
-      '/en/': {
-        selectLanguageText: 'Languages',
+      '/en/': { 
         selectLanguageName: 'English',
-        editLinkText: 'Edit this page on GitHub',
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        },
-        nav: [
-          { text: 'Nested', link: '/nested/' }
+        
+        notFound: [
+          " There's nothing here~ ",
+          'Why are you here?',
+          ':(',
+          'See if the link is wrong?',
         ],
-        sidebar: {
-          '/en/': [/* ... */],
-          '/en/nested/': [/* ... */]
-        }
-      },
-      //侧边栏问题待修复
+
+    },
+
       '/zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
@@ -70,15 +56,8 @@ export default defineUserConfig({
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
         contributorsText: '编写自',
-        // Service Worker 的配置
-        serviceWorker: {
-          updatePopup: {
-            message: "发现新内容可用.",
-            buttonText: "刷新"
-          }
-        },
         nav: [
-          { text: '嵌套', link: 'zh.nested/' }
+          { text: '嵌套', link: '/zh/nested/' }
         ],
       
         // 404 page
@@ -90,12 +69,6 @@ export default defineUserConfig({
         ],
         
         backToHome: '返回首页',
-
-        //侧边栏
-        sidebar: {
-          '.zh/': [/* ... */],
-          '.zh/nested/': [/* ... */]
-        }
       }
     },
   })
