@@ -35,19 +35,18 @@
 ## 安装环境
 
 1.安装pnmp
-npm install pnmp
+`npm install pnmp`
 
 2.安装依赖项
 
-pnmp install vuepress
-pnmp install vuepress-plugin-locale-redirect
+`pnmp install vuepress && pnmp install vuepress-plugin-locale-redirect`
 
 3.使用pnpm调试项目
 
-pnpm run dev
+`pnpm run dev`
 
 # 行为准则
 
-1.当连续三次提交被认为是低质量的pr（**简单≠低质量**），或是提交两次恶意pr后，会被加入此repo的黑名单
-
+- 提交被认为是低质量的pr会被警告一次
+- 当连续三次提交被认为是低质量的pr（**简单≠低质量**），或是提交两次恶意pr后，会被加入此repo的黑名单
 

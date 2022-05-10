@@ -14,17 +14,17 @@ export default defineUserConfig({
     '/zh/': {
       lang: 'zh',
       title: '首都高复活计划',  
-      description: '神力科莎首都高复活计划教程文档',
+      description: '首都高复活计划教程文档',
     },
     '/en/': {
       lang: 'en',
-      title: 'shutoko revival project course',
-      description: 'ACC shutoko mod course ',
+      title: 'shutoko revival project',
+      description: 'shutoko revival project docs',
     },
     '/ja/': {
       lang: '日本语',
-      title: 'shutoko revival project course',
-      description: 'shutoko ACC course docs',
+      title: '首都高复活计划教程',
+      description: '首都高复活计划教程文档', //这两行要翻译成全汉字
     },
   },
   
@@ -35,8 +35,18 @@ export default defineUserConfig({
     repo: 'WUTONK/shutoko_ACCcourse',
 
     locales: {
-      '/en/': { selectLanguageName: 'English' },
-      
+      '/en/': { 
+        selectLanguageName: 'English',
+        
+        notFound: [
+          " There's nothing here~ ",
+          'Why are you here?',
+          ':(',
+          'See if the link is wrong?',
+        ],
+
+    },
+
       '/zh/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
