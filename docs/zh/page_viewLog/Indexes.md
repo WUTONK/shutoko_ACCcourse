@@ -38,6 +38,12 @@ Sublime Text [教程链接](https://www.jianshu.com/p/289bdda1fdff)
 
 #### DLC缺失错误
 
+搜索`DLC`,如见以下报错即为DLC缺失
+
+
+
+如还没有购买DLC请点击[这里](../page-localGame/install#购买dlc) 如购买了DLC但是仍出现此错误请点击[这里](../page-localGame/error#)
+
 #### sol错误
 
 #### 地图加载错误
