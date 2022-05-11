@@ -4,7 +4,7 @@
 
 #### 下载地址
 
-Notepad++ [下载链接](https://notepad-plus-plus.org/)	（易用）
+Notepad++ [下载链接](https://notepad-plus-plus.org/) （易用）
 
 Sublime Text [下载链接](http://www.sublimetext.com/) （专业）
 
