@@ -9,22 +9,20 @@
 
 首都高的现实原型为[日本东京首都高速公路](https://zh.wikipedia.org/wiki/首都高速道路)，简称首都高
 
-首都高全线地图
-<br />
+<div align=center> 首都高全线地图</div> <br />
+
 
 <div align=center> <img src="../imgs/getting/shutoku/720px-shutuko_map-1.png" alt="720px-shutuko_map-1" align=center; style="zoom:75%;" /> </div>
 
 首都高也被称为湾岸，得名于[湾岸线]()，是首都高在地下飙车的代表线路
 
-湾岸线全线地图
+<div align=center> 湾岸线全线地图 </div> <br />
 
 
-<div align=center> <img src="../imgs/getting/shutoku/500px-Shutoko_expwy_wangan_route-2.png" alt="500px-Shutoko_expwy_wangan_route-2" style="zoom: 75%;" /> </div>
+<div align=center> <img src="../imgs/getting/shutoku/500px-Shutoko_expwy_wangan_route-2.png" alt="500px-Shutoko_expwy_wangan_route-2" style="zoom: 75%;" /> </div><br />
 
+<div align=center> 湾岸线的彩虹大桥 </div> <br />
 
-
-湾岸线的彩虹大桥
-<br />
 
 ![rb_3.jpg](../imgs/getting/shutoku/rb_3.jpg)
 
