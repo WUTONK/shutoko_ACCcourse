@@ -59,22 +59,24 @@
 
 - 打开steam，找到神力科莎，右键选择属性
 
-<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_02.png" alt="Control_error_cm_02" align=center; style="zoom:100%;" /> </div>
 
-- 找到`控制器`，选择禁用steam输入，然后关闭窗口并重启游戏，查看问题是否已经解决
+找到`控制器`，选择禁用steam输入，然后关闭窗口并重启游戏，查看问题是否已经解决
 
-<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_03.png" alt="Control_error_cm_03" align=center; style="zoom:50%;" /> </div>
 
 - 如果仍然不行，点击控制器通用设置，进入后会弹出大屏幕模式
 
-<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_04.png" alt="Control_error_cm_04" align=center; style="zoom:50%;" /> </div>
 
 - 将除了`导航键打开steam`以外的选项全部取消勾选，然后查看是否在`检测到的控制器`一栏见到你的方向盘或手柄，如果没有则是驱动错误，请重装驱动
 
-<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_05.png" alt="Control_error_cm_05" align=center; style="zoom:50%;" /> </div>
 
 - 设置完毕后点击下方的返回，关闭steam设置窗口，重启steam和cm启动器，然后进入游戏，查看问题是否解决。如果仍有此错误，请打开CM，找到
 
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_06.png" alt="Control_error_cm_06" align=center; style="zoom:50%;" /> </div>
 
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_06.png" alt="Control_error_cm_06" align=center; style="zoom:50%;" /> </div>
 
 ------
