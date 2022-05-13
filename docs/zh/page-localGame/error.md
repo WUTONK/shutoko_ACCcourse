@@ -1,7 +1,7 @@
 # 本地游戏问题诊断
 
 
-## 常见问题—崩溃或无法进入
+## 崩溃或无法进入
 
 ### *无弹窗加载中直接退出，并在CM启动器显示比赛结束*
 ##### 错误原因
@@ -25,7 +25,7 @@
 
 ------
 
-## 常见问题-进入游戏后出现bug
+## 进入游戏后出现问题
 
 ### *进入游戏后地图贴图丢失，只有蓝色建模*
 ##### 错误原因
@@ -47,5 +47,34 @@
 ##### 解决方案
 - 安装最新版本的SOL，如果已经安装请重新安装，
 
+## 操控出现错误
+
+### *CM启动器内可以正常识别方向盘或手柄，但是进入游戏内仍无法操控*
+##### 错误原因
+`CM启动器和steam产生冲突`
+##### 解决方案
+- 确认方向盘或手柄驱动已经安装，CM启动器的AC-操控页面中可以正常检测到方向盘状态，且在其他直接从steam打开的游戏中可以正常使用方向盘设备或手柄
+
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+
+- 打开steam，找到神力科莎，右键选择属性
+
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+
+- 找到`控制器`，选择禁用steam输入，然后关闭窗口并重启游戏，查看问题是否已经解决
+
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+
+- 如果仍然不行，点击控制器通用设置，进入后会弹出大屏幕模式
+
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+
+- 将除了`导航键打开steam`以外的选项全部取消勾选，然后查看是否在`检测到的控制器`一栏见到你的方向盘或手柄，如果没有则是驱动错误，请重装驱动
+
+<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_01.png" alt="Control_error_cm_01" align=center; style="zoom:50%;" /> </div>
+
+- 设置完毕后点击下方的返回，关闭steam设置窗口，重启steam和cm启动器，然后进入游戏，查看问题是否解决。如果仍有此错误，请打开CM，找到
 
 
+
+------

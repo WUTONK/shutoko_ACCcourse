@@ -51,26 +51,42 @@
 
 ##### 错误原因
 
-`不明原因`
+`windows会将常出问题的文件加入白名单，CM启动器在正常的运行中途产生错误时会频繁检测白名单造成卡顿`
 
 ##### 解决方案
 
 使用win+r快捷键打开快捷命令窗口，输入regedit打开注册表编辑器
-<div align=center> <img src="../imgs/cm/regedit_cm_01.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/cm/regedit_cm_01.png" alt="regedit_cm_01" align=center; style="zoom:30%;" /> </div>
 找到`HKEY LOCAL MACHINE`并进入
-<div align=center> <img src="../imgs/cm/regedit_cm_02.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/cm/regedit_cm_02.png" alt="regedit_cm_02" align=center; style="zoom:30%;" /> </div>
 找到`Microsoft`并进入
-<div align=center> <img src="../imgs/cm/regedit_cm_03.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
-找到`FTH`并进入 FTH会监测经常出现问题的软件，并建立一个白名单
-<div align=center> <img src="../imgs/cm/regedit_cm_04.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/cm/regedit_cm_03.png" alt="regedit_cm_03" align=center; style="zoom:30%;" /> </div>
+找到`FTH`并进入，FTH会监测经常出现问题的软件，并建立一个白名单
+<div align=center> <img src="../imgs/cm/regedit_cm_04.png" alt="regedit_cm_04" align=center; style="zoom:30%;" /> </div>
 进入State文件夹
-<div align=center> <img src="../imgs/cm/regedit_cm_05.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/cm/regedit_cm_05.png" alt="regedit_cm_05" align=center; style="zoom:30%;" /> </div>
 查看是否有下图所示的`steam\steamapps\common\assettocorsal\acs.exe`的文件
-<div align=center> <img src="../imgs/cm/regedit_cm_06.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/cm/regedit_cm_06.png" alt="regedit_cm_06" align=center; style="zoom:30%;" /> </div>
 
-<div align=center> <img src="../imgs/cm/regedit_cm_07.png" alt="regedit_cm_01" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../imgs/cm/regedit_cm_07.png" alt="regedit_cm_07" align=center; style="zoom:30%;" /> </div>
 
-如果没有，说明本方法无法解决你的问题，请尝试[重新安装CM]()
+如果没有，说明本方法无法解决你的问题，请尝试[重新安装CM]()，大概率可解决此问题。如果有此文件，右键点击选择删除即可
+
+<div align=center> <img src="../imgs/cm/regedit_cm_08.png" alt="regedit_cm_08" align=center; style="zoom:30%;" /> </div>
+
+然后点击FTX文件夹，找到`ExclusionList`，左键双击打开，
+
+<div align=center> <img src="../imgs/cm/regedit_cm_09.png" alt="regedit_cm_09" align=center; style="zoom:30%;" /> </div>
+
+在弹出的编辑栏中添加`acs.exe`，点击确定以保存更改
+
+<div align=center> <img src="../imgs/cm/regedit_cm_10.png" alt="regedit_cm_10" align=center; style="zoom:30%;" /> </div>
+
+保存后可能弹出类似的弹窗，直接点击确定即可
+
+<div align=center> <img src="../imgs/cm/regedit_cm_11.png" alt="regedit_cm_11" align=center; style="zoom:30%;" /> </div>
+
+完成后直接关闭注册表，然后完全重启电脑便可解决问题
 
 ------
 
