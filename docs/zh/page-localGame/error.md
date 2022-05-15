@@ -1,9 +1,15 @@
 # 本地游戏问题诊断
 
 
+
+
+
 ## 崩溃或无法进入
 
+
+
 ### *无弹窗加载中直接退出，并在CM启动器显示比赛结束*
+
 ##### 错误原因
 `不明原因导致的崩溃`
 ##### 解决方案
@@ -73,10 +79,19 @@
 
 <div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_05.png" alt="Control_error_cm_05" align=center; style="zoom:50%;" /> </div>
 
-- 设置完毕后点击下方的返回，关闭steam设置窗口，重启steam和cm启动器，然后进入游戏，查看问题是否解决。如果仍有此错误，请打开CM，找到
+- 设置完毕后点击下方的返回，关闭steam设置窗口，重启steam和cm启动器，然后进入游戏，查看问题是否解决。如果仍有此错误，请打开CM，找到顶部栏`CONTENT MANAGER`（CM）→ 菜单栏`SETTINGS` → 侧边栏`DRIVE`
 
-<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_06.png" alt="Control_error_cm_06" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../../.vuepress/public/imgs/cm/cm_gui_cm_01.png" alt="cm_gui_cm_01.png" align=center; style="zoom:50%;" /> </div>
 
-<div align=center> <img src="../imgs/page-localGame/error/Control_error_cm_06.png" alt="Control_error_cm_06" align=center; style="zoom:50%;" /> </div>
+<div align=center> <img src="../../.vuepress/public/imgs/cm/cm_gui_settings_01.png" alt="cm_gui_settings_01" align=center; style="zoom:50%;" /> </div>
 
-------
+<div align=center> <img src="../../.vuepress/public/imgs/cm/cm_gui_settings_drive_01.png" alt="cm_gui_settings_drive_01" align=center; style="zoom:50%;" /> </div>
+
+- 找到右边的`AC-related events:`，勾选下方的`Automatically`，完全重启电脑。如果问题仍未解决，请关机，然后~~爬到桌子底下~~拔掉你的设备的连接线，然后开机，打开CM的控制界面，然后再把设备插入，查看是否识别，如果CM没有识别请重新启动CM，然后重新调整控制设置或恢复到默认设置，设置完毕后重新打开游戏即可，如果仍不行请尝试打开游戏自带地图。
+
+------、
+
+### *CM启动器内可以正常识别方向盘或手柄，但是进入游戏内仍无法操控*
+##### 错误原因
+`CM启动器和steam产生冲突`
+##### 解决方案
