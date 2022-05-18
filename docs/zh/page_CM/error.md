@@ -1,4 +1,4 @@
-# AC启动器问题诊断和教程
+# CM启动器问题诊断和教程
 
 
 ## 设置问题
@@ -71,7 +71,7 @@
 
 ### *安装完车辆mod后，在车辆选择界面显示感叹号或出现不是正常车辆名的选项*
 
-<div align=center> <img src="../imgs/cm/cm_car_error_warning.png.png" alt="cm_car_error_warning.png" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/cm_car_error_warning_01.png" alt="cm_car_error_warning_01.png" align=center; style="zoom:30%;" /> </div>
 
 ##### 错误原因
 
@@ -89,10 +89,13 @@
 点击Error下的提示，在弹窗中根据个人喜好选择即可
 
 - 显示Error，文件丢失
+  
 安装时没有把文件夹拖入CM启动器内，也可能是车辆原因，一般情况下是一辆车一个文件夹，CM也只能识别这种文件方式，但是部分mod会把多辆车打包成一个文件夹
 找到有问题的车辆，选择下方的打开文件夹，查看是否有子车辆文件夹，如果有，将这些车辆文件夹剪切到cars文件夹下，然后重启CM
 
 - 出现不是正常车辆名的选项
+
+<div align=center> <img src="../imgs/cm/error/cm_car_error_warning_02.png" alt="cm_car_error_warning.png_02" align=center; style="zoom:30%;" /> </div>
 
 有两种情况————`将车辆合集包直接放入cars文件夹`或将`车辆文件夹内的内容直接放在cars文件夹中`
 
@@ -102,8 +105,11 @@
 
 
 `车辆文件夹内的内容直接放在cars文件夹中`
-可根据文件名判断，如果出现extension这类车辆文件夹内零碎文件的名字，则说明是这种情况。
-先找到之前下载的对应车辆的压缩包，或是用零碎文件拼成一个车辆文件夹，清理cars文件夹内的零碎文件后，将车辆文件拖入CM内
+
+<div align=center> <img src="../imgs/cm/error/cm_car_file_in.png" alt="cm_car_file_in" align=center; style="zoom:30%;" /> </div>
+
+可根据文件名判断，如果出现extension这类车辆文件夹内零碎文件（见上图）的名字，则说明是这种情况。
+先找到之前下载的对应车辆的压缩包，或是用零碎文件拼成一个车辆文件夹，清理cars文件夹内的零碎文件后，将车辆文件拖入CM内安装
 
 ------
 
@@ -127,6 +133,11 @@
 
 ##### 解决方案
 
+- 换绑steam账号
+
+<div align=center> <img src="../imgs/cm/error/cm_setting_general_settings_change_steam.png" alt="cm_setting_general_settings_change_steam" align=center; style="zoom:30%;" /> </div>
+
+进入 设置→常规设置→Steam profile右侧的更改按钮更改（见上图），然后重启steam和CM
 
 ------
 
@@ -139,45 +150,45 @@
 ##### 解决方案
 
 使用win+r快捷键打开快捷命令窗口，输入regedit打开注册表编辑器
-<div align=center> <img src="../imgs/cm/regedit_cm_01.png" alt="regedit_cm_01" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_01.png" alt="regedit_cm_01" align=center; style="zoom:30%;" /> </div>
 
 找到`HKEY LOCAL MACHINE`并进入
 
-<div align=center> <img src="../imgs/cm/regedit_cm_02.png" alt="regedit_cm_02" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_02.png" alt="regedit_cm_02" align=center; style="zoom:30%;" /> </div>
 
 找到`Microsoft`并进入
 
-<div align=center> <img src="../imgs/cm/regedit_cm_03.png" alt="regedit_cm_03" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_03.png" alt="regedit_cm_03" align=center; style="zoom:30%;" /> </div>
 
 找到`FTH`并进入，FTH会监测经常出现问题的软件，并建立一个白名单
 
-<div align=center> <img src="../imgs/cm/regedit_cm_04.png" alt="regedit_cm_04" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_04.png" alt="regedit_cm_04" align=center; style="zoom:30%;" /> </div>
 
 进入State文件夹
 
-<div align=center> <img src="../imgs/cm/regedit_cm_05.png" alt="regedit_cm_05" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_05.png" alt="regedit_cm_05" align=center; style="zoom:30%;" /> </div>
 
 查看是否有下图所示的`steam\steamapps\common\assettocorsal\acs.exe`的文件
 
-<div align=center> <img src="../imgs/cm/regedit_cm_06.png" alt="regedit_cm_06" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_06.png" alt="regedit_cm_06" align=center; style="zoom:30%;" /> </div>
 
-<div align=center> <img src="../imgs/cm/regedit_cm_07.png" alt="regedit_cm_07" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_07.png" alt="regedit_cm_07" align=center; style="zoom:30%;" /> </div>
 
 如果没有，说明本方法无法解决你的问题，请尝试[重新安装CM]()，大概率可解决此问题。如果有此文件，右键点击选择删除即可
 
-<div align=center> <img src="../imgs/cm/regedit_cm_08.png" alt="regedit_cm_08" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_08.png" alt="regedit_cm_08" align=center; style="zoom:30%;" /> </div>
 
 然后点击FTX文件夹，找到`ExclusionList`，左键双击打开
 
-<div align=center> <img src="../imgs/cm/regedit_cm_09.png" alt="regedit_cm_09" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_09.png" alt="regedit_cm_09" align=center; style="zoom:30%;" /> </div>
 
 在弹出的编辑栏中添加`acs.exe`，点击确定以保存更改
 
-<div align=center> <img src="../imgs/cm/regedit_cm_10.png" alt="regedit_cm_10" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_10.png" alt="regedit_cm_10" align=center; style="zoom:30%;" /> </div>
 
 保存后可能弹出类似的弹窗，直接点击确定即可
 
-<div align=center> <img src="../imgs/cm/regedit_cm_11.png" alt="regedit_cm_11" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/regedit_cm_11.png" alt="regedit_cm_11" align=center; style="zoom:30%;" /> </div>
 
 完成后直接关闭注册表，然后完全重启电脑便可解决问题
 
