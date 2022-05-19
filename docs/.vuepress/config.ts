@@ -3,7 +3,6 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 
 export default defineUserConfig({
-  base: '/',
   title: '首都高教程',
   description: '教程文档',
   plugins: [
@@ -12,7 +11,7 @@ export default defineUserConfig({
   ],
   locales: {
     '/zh/': {
-      lang: 'zh',
+      lang: 'zh-CN',
       title: '首都高复活计划',  
       description: '首都高复活计划教程文档',
     },
@@ -22,7 +21,7 @@ export default defineUserConfig({
       description: 'shutoko revival project docs',
     },
     '/ja/': {
-      lang: '日本语',
+      lang: 'jp',
       title: '首都高复活计划教程',
       description: '首都高复活计划教程文档', //这两行要翻译成全汉字
     },
@@ -44,10 +43,30 @@ export default defineUserConfig({
           ':(',
           'See if the link is wrong?',
         ],
-
     },
 
       '/zh/': {
+        
+        //侧边栏
+        /*
+        sidebar: {
+          
+          //给每个导航栏指定配置
+          '/guide/': [
+            {
+              text: 'Guide',
+              children: ['/guide/README.md', '/guide/getting-started.md'],
+            },
+          ],
+          '/reference/': [
+            {
+              text: 'Reference',
+              children: ['/reference/cli.md', '/reference/config.md'],
+            },
+          ],
+        },
+        */
+
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
         // 该语言在下拉菜单中的标签
