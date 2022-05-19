@@ -27,7 +27,7 @@
 
 - 换绑steam账号
 
-<div align=center> <img src="../imgs/cm/error/cm_setting_general_settings_change_steam.png.png" alt="cm_setting_general_settings_change_steam" align=center; style="zoom:30%;" /> </div>
+<div align=center> <img src="../imgs/cm/error/cm_setting_general_settings_change_steam.png" alt="cm_setting_general_settings_change_steam" align=center; style="zoom:30%;" /> </div>
 
 设置→常规设置→Steam profile右侧的更改按钮更改（见上图），然后重启steam和CM
 
