@@ -6,9 +6,11 @@
 ### *如何导入mod或插件？*
 
 ##### 解决方案
+`如果有条件，推荐在安装前以及安装后可以正常运行时备份游戏文件`
 
-- 将下载的压缩包直接拖到CM启动器中，如果成功识别右上角的菜单栏将会显示绿色TODO：补充图片
-- 有的
+- 将下载的压缩包直接拖到CM启动器中，如果成功识别右上角的菜单栏将会显示<div align=center> <img src="../../.vuepress/public/imgs/cm/cm_mod_Identified.png" alt="cm_mod_Identified" align=center; style="zoom:30%;" /> </div>，点击便可进入mod列表
+
+- 部分mod和插件则需要覆盖根目录，把下载文件解压，全选后拖入AC的根目录，然后在弹出的窗口中选择覆盖所有重复项
 
 
 ## 服务器问题
@@ -23,7 +25,9 @@
 
 - 换绑steam账号
 
-进入CM界面的设置 → CM（CONTENT MANGER）→ 常规设置
+<div align=center> <img src="../imgs/cm/error/cm_setting_general_settings_change_steam.png.png" alt="cm_setting_general_settings_change_steam" align=center; style="zoom:30%;" /> </div>
+
+设置→常规设置→Steam profile右侧的更改按钮更改（见上图），然后重启steam和CM
 
 `如果绑定的账户中有神力科莎但仍出现此错误请查看下一方法`
 
@@ -39,13 +43,14 @@
 
 如果错误仍存在请重新安装CSP-[安装CSP]()
 
-
 ------
 
 
 ## mod和补丁问题
 
 ### *导入mod压缩包文件后无法识别，显示灰色*
+
+<div align=center> <img src="../imgs/cm/error/cm_mod_install_connot_Identified.png" alt="cm_mod_install_connot_Identified.png" align=center; style="zoom:100%;" /> </div>
 
 ##### 错误原因
 
@@ -54,18 +59,21 @@
 ##### 解决方案
 
 - 如果是需要覆盖根目录的文件，请先解压文件，然后进入解压出的文件夹，全部选择并复制粘贴到游戏根目录，
-- 如果是多层包含多个包的文件，例如插件或赛道，车辆合集，需要自行解包，分类，例如将车辆文件统一放置到同一个文件夹，然后再拖入便可正常识别。
+- 如果是多层包含多个包的文件，例如插件、赛道、车辆合集，需要自行解包，分类，例如将车辆文件统一放置到同一个文件夹，然后再拖入便可正常识别。
 
 ------
 
-### *导入mod压缩包文件后无法识别，显示灰色*
+### *导入mod压缩包文件后无法识别，显示灰色和删除线和“FAILED”*
+
+<div align=center> <img src="../imgs/cm/error/cm_mod_install_FAILED.png" alt="cm_mod_install_FAILED" align=center; style="zoom:100%;" /> </div>
 
 ##### 错误原因
 
 `将同一个文件拖入两次`
 
 ##### 解决方案
-重启CM启动器后再拖入
+
+- 重启CM启动器后再拖入
 
 ------
 
@@ -83,9 +91,18 @@
 
 - 缺少原车型
 
-点击Error下的提示，在弹窗中选择`使其独立`，然后点击确定
+<div align=center> <img src="../imgs/cm/error/cm_car_vehicle_lacks.png" alt="cm_car_vehicle_lacks.png" align=center; style="zoom:30%;" /> </div> 
+
+点击Error下的提示，然后会弹出一个窗口
+
+<div align=center> <img src="../imgs/cm/error/cm_car_vehicle_lacks_popup window.png" alt="cm_car_vehicle_lacks_popup window.png" align=center; style="zoom:30%;" /> </div> 
+
+在弹窗中选择`使其独立`，然后点击确定
 
 - 缺少涂装图标
+
+<div align=center> <img src="../imgs/cm/error/cm_car_Painting _icon_missing.png" alt="cm_car_Painting _icon_missing.png" align=center; style="zoom:100%;" /> </div> 
+
 点击Error下的提示，在弹窗中根据个人喜好选择即可
 
 - 显示Error，文件丢失
@@ -117,27 +134,11 @@
 
 ##### 错误原因
 
+
 `将同一个文件拖入两次`
 
 ##### 解决方案
 重启CM启动器后再拖入
-
-
-## 其他问题
-
-### *进入多人联机页面无法加载*
-
-##### 错误原因
-
-`账户绑定错误导致的游戏验证错误`
-
-##### 解决方案
-
-- 换绑steam账号
-
-<div align=center> <img src="../imgs/cm/error/cm_setting_general_settings_change_steam.png" alt="cm_setting_general_settings_change_steam" align=center; style="zoom:30%;" /> </div>
-
-进入 设置→常规设置→Steam profile右侧的更改按钮更改（见上图），然后重启steam和CM
 
 ------
 
@@ -201,6 +202,10 @@
 
 ##### 解决方案
 
-进入CM界面的设置 → CM（CONTENT MANGER）→ 常规设置，找到右边的`数值缓存库`中的`打开应用文件夹按钮`和`打开日志文件夹`，点击这两个按钮，点击后会弹出两个文件夹页面，将文件夹内的文件全部删除（**不要删除文件夹本身！**），然后重新打开CM
+<div align=center> <img src="../imgs/cm/error/cm_fix_CleanCache_button.png" alt="cm_fix_CleanCache_button" align=center; style="zoom:100%;" /> </div>
+
+进入CM界面的设置 → CM（CONTENT MANGER）→ 常规设置，找到右边的`数值缓存库`中的`打开应用文件夹按钮`和`打开日志文件夹`，点击这两个按钮，点击后会弹出两个文件夹页面（见下图），将文件夹内的文件全部删除（**不要删除文件夹本身！**），然后重新打开CM
+
+<div align=center> <img src="../imgs/cm/error/cm_cache_file_window.png" alt="cm_cache_file_window" align=center; style="zoom:100%;" /> </div>
 
 ------

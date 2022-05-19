@@ -46,6 +46,27 @@ export default defineUserConfig({
     },
 
       '/zh/': {
+        
+        //侧边栏
+        /*
+        sidebar: {
+          
+          //给每个导航栏指定配置
+          '/guide/': [
+            {
+              text: 'Guide',
+              children: ['/guide/README.md', '/guide/getting-started.md'],
+            },
+          ],
+          '/reference/': [
+            {
+              text: 'Reference',
+              children: ['/reference/cli.md', '/reference/config.md'],
+            },
+          ],
+        },
+        */
+
         // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
         // 该语言在下拉菜单中的标签
