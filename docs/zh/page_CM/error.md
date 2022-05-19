@@ -97,7 +97,7 @@
 
 点击Error下的提示，然后会弹出一个窗口
 
-<div align=center> <img src="../imgs/cm/error/cm_car_vehicle_lacks_popup window.png" alt="cm_car_vehicle_lacks_popup window.png" align=center; style="zoom:30%;" /> </div> 
+<div align=center> <img src="../imgs/cm/error/cm_car_vehicle_lacks_popup_window.png" alt="cm_car_vehicle_lacks_popup_window.png" align=center; style="zoom:30%;" /> </div> 
 
 在弹窗中选择`使其独立`，然后点击确定
 
