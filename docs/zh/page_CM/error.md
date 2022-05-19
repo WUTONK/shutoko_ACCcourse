@@ -103,7 +103,7 @@
 
 - 缺少涂装图标
 
-<div align=center> <img src="../imgs/cm/error/cm_car_Painting _icon_missing.png" alt="cm_car_Painting _icon_missing.png" align=center; style="zoom:100%;" /> </div> 
+<div align=center> <img src="../imgs/cm/error/cm_car_Painting_icon_missing.png" alt="cm_car_Painting_icon_missing.png" align=center; style="zoom:100%;" /> </div> 
 
 点击Error下的提示，在弹窗中根据个人喜好选择即可
 
