@@ -31,7 +31,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     //public下的路径
     logo: '/imgs/logo/logob_low.png',
-    repo: 'WUTONK/shutoko_ACCcourse',
+    repo: 'https://github.com/WUTONK/shutoko_ACCcourse',
 
     locales: {
       '/en/': { 
