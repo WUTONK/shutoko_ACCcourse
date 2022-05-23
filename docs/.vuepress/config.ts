@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress' //默认vuepress包
 import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'//返回顶部按钮
+import { containerPlugin } from '@vuepress/plugin-container' //自定义容器
 
 export default defineUserConfig({
   title: '首都高教程',
@@ -10,6 +11,7 @@ export default defineUserConfig({
     // @ts-ignore
     localeRedirectPlugin(),
     backToTopPlugin(),
+
   ],
   locales: {
     '/zh/': {
@@ -68,7 +70,7 @@ export default defineUserConfig({
           ],
         },
         */
-
+        
         // 多语言下拉菜单的标题
         selectLanguageText: '语言',
         // 该语言在下拉菜单中的标签
@@ -99,7 +101,7 @@ export default defineUserConfig({
             children: [
               {
                 text: 'CM启动器',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/page_CM/install', '/zh/page_CM/use'],
               },
               {
                 text: '数据修改器',
@@ -107,7 +109,7 @@ export default defineUserConfig({
               },
               {
                 text: 'vjoy',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/page_vjoy/install', '/zh/page_vjoy/use'],
               },
 
             ],
@@ -132,7 +134,7 @@ export default defineUserConfig({
               },
               {
                 text: '线上服务器',
-                link: '/not-foo/',
+                link: '/',
                 children: [],
               },
                {

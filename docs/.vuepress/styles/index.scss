@@ -12,3 +12,8 @@ pageClass: custom-page-class
   }
 
 */
+
+//将展开样式颜色定义为无
+.custom-container.details {
+    background-color: unset;
+}
