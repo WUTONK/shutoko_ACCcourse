@@ -6,7 +6,7 @@
 
 ### *如何导入mod或插件？*
 
-::: details 查看详细信息
+::: details 查看
 
 ##### 解决方案
 `如果有条件，推荐在安装前以及安装后可以正常运行时备份游戏文件`
@@ -21,7 +21,7 @@
 
 ### *无法加载服务器列表*
 
-::: details 查看详细信息
+::: details 查看
 
 ##### 错误原因
 
@@ -55,7 +55,7 @@
 
 ### *导入mod压缩包文件后无法识别，显示灰色*
 
-::: details 查看详细信息
+::: details 查看
 
 <div align=center> <img src="../imgs/cm/error/cm_mod_install_connot_Identified.png" alt="cm_mod_install_connot_Identified.png" align=center; style="zoom:100%;" /> </div>
 
@@ -76,7 +76,7 @@
 
 ### *导入mod压缩包文件后无法识别，显示灰色和删除线和“FAILED”*
 
-::: details 查看详细信息
+::: details 查看
 
 <div align=center> <img src="../imgs/cm/error/cm_mod_install_FAILED.png" alt="cm_mod_install_FAILED" align=center; style="zoom:100%;" /> </div>
 
@@ -94,7 +94,7 @@
 
 ### *安装完车辆mod后，在车辆选择界面显示感叹号或出现不是正常车辆名的选项*
 
-::: details 查看详细信息
+::: details 查看
 
 <div align=center> <img src="../imgs/cm/error/cm_car_error_warning_01.png" alt="cm_car_error_warning_01.png" align=center; style="zoom:100%;" /> </div>
 
@@ -151,7 +151,7 @@
 
 ### *已经导入车辆，但是在车辆列表中没有显示导入的车辆*
 
-::: details 查看详细信息
+::: details 查看
 
 ##### 错误原因
 
@@ -167,7 +167,7 @@
 
 ### *打开CM后不时卡顿（显卡和CPU占用未满）*
 
-::: details 查看详细信息
+::: details 查看
 
 ##### 错误原因
 
@@ -228,7 +228,7 @@
 
 ### *如何清理缓存*
 
-::: details 查看详细信息
+::: details 查看
 ##### 解决方案
 
 <div align=center> <img src="../imgs/cm/error/cm_fix_CleanCache_button.png" alt="cm_fix_CleanCache_button" align=center; style="zoom:100%;" /> </div>
@@ -247,7 +247,7 @@
 
 ### 卸载CSP
 
-::: details 查看详细信息
+::: details 查看
 
 在CM启动器内点击 `CUSTOM SHADERS PATCH`→`ABOUT&UPDATAS`即可进入CSP页面，在右侧的`Available versions`选中你要卸载的版本，找到下方的`Other opions`选项，左边的按钮是重装选择的版本，右边的按钮是**卸载按钮**
 
@@ -258,7 +258,7 @@
 
 ### 卸载SOL
 
-::: details 查看详细信息
+::: details 查看
 
 :::
 
@@ -266,7 +266,7 @@
 
 ### 安装或更新CSP
 
-::: details 查看详细信息
+::: details 查看
 
 点击在CM启动器内点击 `CUSTOM SHADERS PATCH`→`ABOUT&UPDATAS`即可进入CSP页面，在右侧的`Available versions`选中你要安装的版本，选中后会自动安装（？） 
 

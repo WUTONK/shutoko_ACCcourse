@@ -123,7 +123,7 @@ export default defineUserConfig({
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/sub/', '/group/sub/bar.md'],
               },
               {
                 text: '安装mod',
@@ -131,9 +131,10 @@ export default defineUserConfig({
                 // 该元素在当前路由路径是 /foo/ 开头时激活
                 // 支持正则表达式
                 activeMatch: '^/foo/',
+                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
               },
               {
-                text: '线上服务器',
+                text: '游玩线上服务器',
                 link: '/',
                 children: [],
               },
@@ -149,11 +150,11 @@ export default defineUserConfig({
             text: '错误诊断',
             children: [
               {
-                text: '安装错误',
+                text: '安装mod错误',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
               },
               {
                 text: '线下游戏错误',
@@ -167,14 +168,14 @@ export default defineUserConfig({
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/page_online/error', '/group/sub/bar.md'],
               },
               {
                 text: 'CM启动器错误',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
               },
             ],
           },
