@@ -3,6 +3,10 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'//返回顶部按钮
 import { containerPlugin } from '@vuepress/plugin-container' //自定义容器
+//import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
+//import { docsearchPlugin } from '@vuepress/plugin-docsearch' //未来添加的外部搜索API
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'//进度条
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'//图片缩放
 
 export default defineUserConfig({
   title: '首都高教程',
@@ -11,8 +15,12 @@ export default defineUserConfig({
     // @ts-ignore
     localeRedirectPlugin(),
     backToTopPlugin(),
-
+    nprogressPlugin(),
+    mediumZoomPlugin({
+      delay: 100 //切换路由后开始生效的延迟时间
+    }),
   ],
+
   locales: {
     '/zh/': {
       lang: 'zh-CN',
@@ -30,12 +38,34 @@ export default defineUserConfig({
       description: '首都高复活计划教程文档', //这两行要翻译成全汉字
     },
   },
+
+  /*
+  searchPlugin: {
+
+    maxSuggestions = 7
+    //将首页排除出可搜索名单
+    isSearchable: (page) => page.path !== '/',
+
+    locales: {
+      '/en/': {
+        placeholder: 'Search',
+      },
+      '/zh/': {
+        placeholder: '搜索',
+      },
+      '/jp/': {
+        placeholder: '搜索',
+      },
+    },
+  },
+  */
   
   //主题设置
   theme: defaultTheme({
     //public下的路径
     logo: '/imgs/logo/logob_low.png',
     repo: 'https://github.com/WUTONK/shutoko_ACCcourse',
+    smoothScroll: true, //切换页面时平滑滚动
 
     locales: {
       '/en/': { 
@@ -91,8 +121,6 @@ export default defineUserConfig({
           '可能我们网站有什么bug~',
         ],
         
-        
-
         //标题栏
         navbar: [
           // 工具 - 最大深度为 2
@@ -105,7 +133,7 @@ export default defineUserConfig({
               },
               {
                 text: '数据修改器',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/page_Modifier/install', '/zh/page_Modifier/car'],
               },
               {
                 text: 'vjoy',
@@ -134,7 +162,7 @@ export default defineUserConfig({
                 children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
               },
               {
-                text: '游玩线上服务器',
+                text: '游玩线上服务器教程',
                 link: '/',
                 children: [],
               },
@@ -182,9 +210,8 @@ export default defineUserConfig({
 
         ],
 
-        //CSS
+        //
 
-        
       }
     },
   })

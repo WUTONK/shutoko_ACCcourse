@@ -17,5 +17,41 @@ pageClass: custom-page-class
 .custom-container.details {
     background-color: unset;
 }
+
 //侧边栏背景
 
+//进度条样式
+
+:root {
+  --nprogress-color: #141414d;
+  --nprogress-z-index: 1031;
+}
+
+//搜索框样式
+:root {
+  --search-bg-color: #ffffff;
+  --search-accent-color: #3eaf7c;
+  --search-text-color: #2c3e50;
+  --search-border-color: #eaecef;
+
+  --search-item-text-color: #5d81a5;
+  --search-item-focus-bg-color: #f3f4f5;
+
+  --search-input-width: 8rem;
+  --search-result-width: 20rem;
+}
+
+//返回顶部按钮样式
+:root {
+  --back-to-top-z-index: 5;
+
+  --back-to-top-color: #3eaf7c;
+  --back-to-top-color-hover: #71cda3;
+}
+
+//zoomOptions缩放样式自定义
+:root {
+  --medium-zoom-z-index: 100;
+  --medium-zoom-bg-color: #ffffff;
+  --medium-zoom-opacity: 1;
+}
