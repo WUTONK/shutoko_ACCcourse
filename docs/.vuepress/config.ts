@@ -77,30 +77,75 @@ export default defineUserConfig({
           ':(',
           'See if the link is wrong?',
         ],
-    },
+        },
+
+        '/jp/': { 
+          selectLanguageName: '',
+          
+          notFound: [
+            " There's nothing here~ ",
+            'Why are you here?',
+            ':(',
+            'See if the link is wrong?',
+          ],
+        },
 
       '/zh/': {
         
         //侧边栏
-        /*
+        
+
         sidebar: {
           
           //给每个导航栏指定配置
-          '/guide/': [
+          '/': [
             {
               text: 'Guide',
-              children: ['/guide/README.md', '/guide/getting-started.md'],
+              collapsible: true, //可折叠显示
+              children: ['/guide/README.md']
+              ['/guide/getting-started.md'],
+      
             },
-          ],
-          '/reference/': [
             {
               text: 'Reference',
+              collapsible: true,
               children: ['/reference/cli.md', '/reference/config.md'],
             },
           ],
+          
+          
         },
-        */
+        sidebarDepth:2,     //侧边栏深度，这里到h3标题
+        nextLinks: true,    // 根据侧边栏目录，显示到下一个页面的链接
+        prevLinks: true,    // 根据侧边栏目录，显示到上一个页面的链接
         
+        /*
+        sidebar: [
+        //
+        {
+            title: '安装流程',    // 这一组链接的名字
+            //path: '/Chapter1',  // 设置 title 指向的链接（只能包含英文，可以不设置）
+            collapsable: true,  // 是否折叠显示
+            sidebarDepth: 2,    // 自动从当前文档中提取标题链接，最深提取到 h3 级标题
+            children: [         // title 下的子链接
+                ['/zh/page-localGame/install', '安装首都高mod'],
+                ['/Chapter1/2', '第二节'],
+                {
+                    title: '第三节',    // 分组链接支持最多三层嵌套
+                    children: [
+                        '/Chapter1/3.1',
+                        '/Chapter1/3.2',
+                    ]
+                }
+            ]
+        },
+        {
+            title: '视频教程',
+            children: [ ]
+        }
+        ],
+         */
+
         // 多语言下拉菜单的标题
         selectLanguageText: '语言',
         // 该语言在下拉菜单中的标签
@@ -142,7 +187,6 @@ export default defineUserConfig({
 
             ],
           },
-          
           {
             text: '指南',
             children: [
@@ -173,12 +217,11 @@ export default defineUserConfig({
               },
             ],
           },
-
           {
             text: '错误诊断',
             children: [
               {
-                text: '安装mod错误',
+                text: '安装错误',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
@@ -207,12 +250,15 @@ export default defineUserConfig({
               },
             ],
           },
-
         ],
 
         //
 
-      }
-    },
+      }//zh结束
+
+      
+    }, 
+
+
   })
 })

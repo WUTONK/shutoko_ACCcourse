@@ -1,4 +1,7 @@
 ---
+pageClass: homepage_class
+navbar: false
+
 home: ture
 title: 首都高教程文档
 heroImage: '/imgs/logo/logob.png'
