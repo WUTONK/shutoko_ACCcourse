@@ -26,24 +26,6 @@
 
 ![rb_3.jpg](../imgs/getting/shutoku/rb_3.jpg)
 
-
-
-## 本模组
-
-- 链接为维基百科词条，需要代理才能访问
-
-<div align=center>  <h3> 首都高复活计划 </h3> </div> 
-
-<br />
-
-<div align=center> <img src="../../.vuepress/public/imgs/logo/logob.png" alt="shutoko_logob.png" style="zoom:35%;" /> </div>
-
-<br />
-
-本模组为神力科莎游戏的地图mod，目标为还原现实的首都高
-
-
-
 ### 目前已还原的线路
 
 
@@ -115,7 +97,6 @@
 [维基百科-八重洲线](https://zh.wikipedia.org/wiki/首都高速八重洲線)
 
 
-
 #### *横羽线*
 
 `神奈川县内的赛道，狭窄的高速路段，时不时地出现平缓的弯道`
@@ -145,8 +126,10 @@ TODO:港未来
 
 `此mod可选择游戏内的出生停车场地点，分别是`
 
-矗立于湾岸线的停车场
+首都高的地标性停车场——大黑PA
 
-横滨线的沿线停车场
+矗立于湾岸线的停车场——
 
-C1入口的停车场
+横滨线的沿线停车场——
+
+C1入口的停车场——

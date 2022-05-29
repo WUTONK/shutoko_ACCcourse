@@ -1,9 +1,12 @@
 # CM启动器问题诊断和教程
 
 
+
 ## 设置问题
 
 ### *如何导入mod或插件？*
+
+::: details 查看
 
 ##### 解决方案
 `如果有条件，推荐在安装前以及安装后可以正常运行时备份游戏文件`
@@ -12,12 +15,13 @@
 
 - 部分mod和插件则需要覆盖根目录，把下载文件解压，全选后拖入AC的根目录，然后在弹出的窗口中选择覆盖所有重复项
 
-------
-
+:::
 
 ## 服务器问题
 
 ### *无法加载服务器列表*
+
+::: details 查看
 
 ##### 错误原因
 
@@ -45,12 +49,13 @@
 
 如果错误仍存在请重新安装CSP-[安装CSP]()
 
-------
-
+:::
 
 ## mod和补丁问题
 
 ### *导入mod压缩包文件后无法识别，显示灰色*
+
+::: details 查看
 
 <div align=center> <img src="../imgs/cm/error/cm_mod_install_connot_Identified.png" alt="cm_mod_install_connot_Identified.png" align=center; style="zoom:100%;" /> </div>
 
@@ -63,9 +68,15 @@
 - 如果是需要覆盖根目录的文件，请先解压文件，然后进入解压出的文件夹，全部选择并复制粘贴到游戏根目录，
 - 如果是多层包含多个包的文件，例如插件、赛道、车辆合集，需要自行解包，分类，例如将车辆文件统一放置到同一个文件夹，然后再拖入便可正常识别。
 
+:::
+
 ------
 
+
+
 ### *导入mod压缩包文件后无法识别，显示灰色和删除线和“FAILED”*
+
+::: details 查看
 
 <div align=center> <img src="../imgs/cm/error/cm_mod_install_FAILED.png" alt="cm_mod_install_FAILED" align=center; style="zoom:100%;" /> </div>
 
@@ -77,11 +88,15 @@
 
 - 重启CM启动器后再拖入
 
+:::
+
 ------
 
 ### *安装完车辆mod后，在车辆选择界面显示感叹号或出现不是正常车辆名的选项*
 
-<div align=center> <img src="../imgs/cm/error/cm_car_error_warning_01.png" alt="cm_car_error_warning_01.png" align=center; style="zoom:30%;" /> </div>
+::: details 查看
+
+<div align=center> <img src="../imgs/cm/error/cm_car_error_warning_01.png" alt="cm_car_error_warning_01.png" align=center; style="zoom:100%;" /> </div>
 
 ##### 错误原因
 
@@ -130,9 +145,13 @@
 可根据文件名判断，如果出现extension这类车辆文件夹内零碎文件（见上图）的名字，则说明是这种情况。
 先找到之前下载的对应车辆的压缩包，或是用零碎文件拼成一个车辆文件夹，清理cars文件夹内的零碎文件后，将车辆文件拖入CM内安装
 
+:::
+
 ------
 
 ### *已经导入车辆，但是在车辆列表中没有显示导入的车辆*
+
+::: details 查看
 
 ##### 错误原因
 
@@ -142,9 +161,13 @@
 ##### 解决方案
 重启CM启动器后再拖入
 
+:::
+
 ------
 
 ### *打开CM后不时卡顿（显卡和CPU占用未满）*
+
+::: details 查看
 
 ##### 错误原因
 
@@ -195,13 +218,17 @@
 
 完成后直接关闭注册表，然后完全重启电脑便可解决问题
 
+:::
+
 ------
+
 
 ## 常见修复方法
 `这里介绍一些常用的修复方法，不是错误诊断，如果出现错误请先查看上方`
 
 ### *如何清理缓存*
 
+::: details 查看
 ##### 解决方案
 
 <div align=center> <img src="../imgs/cm/error/cm_fix_CleanCache_button.png" alt="cm_fix_CleanCache_button" align=center; style="zoom:100%;" /> </div>
@@ -209,6 +236,8 @@
 进入CM界面的设置 → CM（CONTENT MANGER）→ 常规设置，找到右边的`数值缓存库`中的`打开应用文件夹按钮`和`打开日志文件夹`，点击这两个按钮，点击后会弹出两个文件夹页面（见下图），将文件夹内的文件全部删除（**不要删除文件夹本身！**），然后重新打开CM
 
 <div align=center> <img src="../imgs/cm/error/cm_cache_file_window.png" alt="cm_cache_file_window" align=center; style="zoom:100%;" /> </div>
+
+:::
 
 ------
 
@@ -218,16 +247,30 @@
 
 ### 卸载CSP
 
+::: details 查看
+
 在CM启动器内点击 `CUSTOM SHADERS PATCH`→`ABOUT&UPDATAS`即可进入CSP页面，在右侧的`Available versions`选中你要卸载的版本，找到下方的`Other opions`选项，左边的按钮是重装选择的版本，右边的按钮是**卸载按钮**
+
+:::
 
 ------
 
 
 ### 卸载SOL
 
+::: details 查看
+
+:::
+
+------
+
 ### 安装或更新CSP
 
+::: details 查看
+
 点击在CM启动器内点击 `CUSTOM SHADERS PATCH`→`ABOUT&UPDATAS`即可进入CSP页面，在右侧的`Available versions`选中你要安装的版本，选中后会自动安装（？） 
+
+:::
 
 ------
 

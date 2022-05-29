@@ -1,4 +1,7 @@
 ---
+pageClass: homepage_class
+navbar: false
+
 home: ture
 title: 首都高教程文档
 heroImage: '/imgs/logo/logob.png'
@@ -13,12 +16,5 @@ actions:
 footer: MIT Licensed | © 2022 WUTONK 保留所有权利
 ---
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 
