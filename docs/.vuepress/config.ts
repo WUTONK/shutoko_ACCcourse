@@ -34,8 +34,8 @@ export default defineUserConfig({
     },
     '/ja/': {
       lang: 'jp',
-      title: '首都高复活计划教程',
-      description: '首都高复活计划教程文档', //这两行要翻译成全汉字
+      title: '首都高再生計画',
+      description: '首都高再生計画文档', 
     },
   },
 
@@ -78,36 +78,48 @@ export default defineUserConfig({
           'See if the link is wrong?',
         ],
         },
+      
+      //日语
+      '/jp/': { 
+        // 多语言下拉菜单的标题
+        selectLanguageText: '言語変更',
+        // 该语言在下拉菜单中的标签
+        selectLanguageName: '日本語',
+        // 编辑链接文字
+        editLinkText: 'GitHubでこのページを編集する',
+        lastUpdatedText: '最終更新',
+        contributorsText: '作成者',
+        //404 页面中 返回首页 链接的文字。
+        backToHome: 'トップページに',
 
-        '/jp/': { 
-          selectLanguageName: '',
-          
-          notFound: [
-            " There's nothing here~ ",
-            'Why are you here?',
-            ':(',
-            'See if the link is wrong?',
-          ],
-        },
+        // 404 page
+        notFound: [
+          "申し訳ありませんが、このサイトはまだ日本語に対応していません。翻訳に参加したい場合は、githubで詳細を確認してください。",
+          'ここには何もありません(｡･ω･｡)',
+          'どうしてここに来たの？╭(°A°`)╮',
+          ':(',
+          'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
+          'このサイトにはbug~があるかもしれません（笑）',
+        ],
+      },
 
+      //中文
       '/zh/': {
         
         //侧边栏
-        
-
         sidebar: {
           
           //给每个导航栏指定配置
           '/': [
             {
-              text: 'Guide',
+              text: '安装流程',
               collapsible: true, //可折叠显示
-              children: ['/guide/README.md']
+              children: ['/']
               ['/guide/getting-started.md'],
       
             },
             {
-              text: 'Reference',
+              text: '',
               collapsible: true,
               children: ['/reference/cli.md', '/reference/config.md'],
             },
@@ -121,7 +133,6 @@ export default defineUserConfig({
         
         /*
         sidebar: [
-        //
         {
             title: '安装流程',    // 这一组链接的名字
             //path: '/Chapter1',  // 设置 title 指向的链接（只能包含英文，可以不设置）
