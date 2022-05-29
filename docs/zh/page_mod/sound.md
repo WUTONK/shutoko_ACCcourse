@@ -1,5 +1,5 @@
 ---
-
+pageClass: mod_class
 ---
 # 声效模组推荐
 

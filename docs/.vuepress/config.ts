@@ -34,8 +34,8 @@ export default defineUserConfig({
     },
     '/ja/': {
       lang: 'jp',
-      title: '首都高复活计划教程',
-      description: '首都高复活计划教程文档', //这两行要翻译成全汉字
+      title: '首都高再生計画',
+      description: '首都高再生計画文档', 
     },
   },
 
@@ -79,35 +79,30 @@ export default defineUserConfig({
         ],
         },
 
-        '/jp/': { 
-          selectLanguageName: '',
-          
-          notFound: [
-            " There's nothing here~ ",
-            'Why are you here?',
-            ':(',
-            'See if the link is wrong?',
-          ],
-        },
+      '/jp/': { 
+        selectLanguageName: '日本語',
+        
+        notFound: [
+          "申し訳ありませんが、このサイトはまだ日本語に対応していません。翻訳に参加したい場合は、githubで詳細を確認してください。",
+        ],
+      },
 
       '/zh/': {
         
         //侧边栏
-        
-
         sidebar: {
           
           //给每个导航栏指定配置
           '/': [
             {
-              text: 'Guide',
+              text: '安装流程',
               collapsible: true, //可折叠显示
-              children: ['/guide/README.md']
+              children: ['/']
               ['/guide/getting-started.md'],
       
             },
             {
-              text: 'Reference',
+              text: '',
               collapsible: true,
               children: ['/reference/cli.md', '/reference/config.md'],
             },
@@ -121,7 +116,6 @@ export default defineUserConfig({
         
         /*
         sidebar: [
-        //
         {
             title: '安装流程',    // 这一组链接的名字
             //path: '/Chapter1',  // 设置 title 指向的链接（只能包含英文，可以不设置）
