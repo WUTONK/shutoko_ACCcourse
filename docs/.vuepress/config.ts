@@ -78,15 +78,32 @@ export default defineUserConfig({
           'See if the link is wrong?',
         ],
         },
-
+      
+      //日语
       '/jp/': { 
+        // 多语言下拉菜单的标题
+        selectLanguageText: '言語変更',
+        // 该语言在下拉菜单中的标签
         selectLanguageName: '日本語',
-        
+        // 编辑链接文字
+        editLinkText: 'GitHubでこのページを編集する',
+        lastUpdatedText: '最終更新',
+        contributorsText: '作成者',
+        //404 页面中 返回首页 链接的文字。
+        backToHome: 'トップページに',
+
+        // 404 page
         notFound: [
           "申し訳ありませんが、このサイトはまだ日本語に対応していません。翻訳に参加したい場合は、githubで詳細を確認してください。",
+          'ここには何もありません(｡･ω･｡)',
+          'どうしてここに来たの？╭(°A°`)╮',
+          ':(',
+          'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
+          'このサイトにはbug~があるかもしれません（笑）',
         ],
       },
 
+      //中文
       '/zh/': {
         
         //侧边栏
