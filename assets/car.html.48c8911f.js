@@ -1,0 +1,1 @@
+const a={key:"v-5369a4a4",path:"/zh/page_download/car.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653843882e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_download/car.md"};export{a as data};

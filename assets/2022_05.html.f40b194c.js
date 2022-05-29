@@ -1,0 +1,1 @@
+const e={key:"v-0a34b63c",path:"/zh/page_Notice/2022_05.html",title:"2022\u5E74\u4E94\u6708\u4EFD",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653843882e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_Notice/2022_05.md"};export{e as data};
