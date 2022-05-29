@@ -1,0 +1,1 @@
+const e={key:"v-12e8c073",path:"/zh/page_mod/gui.html",title:"UI\u6A21\u7EC4\u63A8\u8350",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653843951e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_mod/gui.md"};export{e as data};

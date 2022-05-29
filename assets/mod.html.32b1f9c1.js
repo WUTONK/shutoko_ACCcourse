@@ -1,1 +1,0 @@
-const t={key:"v-16100dac",path:"/zh/page_Getting/mod.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653843882e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_Getting/mod.md"};export{t as data};

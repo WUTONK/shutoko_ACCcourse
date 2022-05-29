@@ -1,0 +1,1 @@
+const e={key:"v-16f4225a",path:"/zh/page_vjoy/error.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653843951e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_vjoy/error.md"};export{e as data};
