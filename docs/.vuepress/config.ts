@@ -170,10 +170,10 @@ export default defineUserConfig({
 
         // 404 page
         notFound: [
-          '这里什么都没有',
+          '这里什么都没有(｡･ω･｡)',
           '你怎么到这来了？',
           ':(',
-          '看看是不是链接打错了？',
+          '看看是不是链接打错了？_(:з」∠)_',
           '可能我们网站有什么bug~',
         ],
         
@@ -261,7 +261,42 @@ export default defineUserConfig({
               },
             ],
           },
+          {
+            text: '资源',
+            children: [
+              {
+                text: '车辆资源',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
+              },
+              {
+                text: '线下游戏错误',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+              },
+              {
+                text: '线上游戏错误',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/page_online/error', '/group/sub/bar.md'],
+              },
+              {
+                text: 'CM启动器错误',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
+              },
+            ],
+          },
         ],
+        
+
 
         //
 
