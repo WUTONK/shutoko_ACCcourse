@@ -119,9 +119,9 @@ export default defineUserConfig({
       
             },
             {
-              text: '',
+              text: '教程视频',
               collapsible: true,
-              children: ['/reference/cli.md', '/reference/config.md'],
+              children: ['/zh/page_videos/', '/reference/config.md'],
             },
           ],
           
@@ -160,7 +160,7 @@ export default defineUserConfig({
         // 多语言下拉菜单的标题
         selectLanguageText: '语言',
         // 该语言在下拉菜单中的标签
-        selectLanguageName: '中文',
+        selectLanguageName: '简体中文',
         // 编辑链接文字
         editLinkText: '在GitHub编辑此页',
         lastUpdatedText: '上次更新',
@@ -185,7 +185,7 @@ export default defineUserConfig({
             children: [
               {
                 text: 'CM启动器',
-                children: ['/zh/page_CM/install', '/zh/page_CM/use'],
+                children: ['/zh/page_CM/install', '/zh/page_CM/error'],
               },
               {
                 text: '数据修改器',
@@ -272,21 +272,21 @@ export default defineUserConfig({
                 children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
               },
               {
-                text: '线下游戏错误',
+                text: '地图资源',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: ['/zh/page_download/map'],
               },
               {
-                text: '线上游戏错误',
+                text: '画质补丁',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/page_online/error', '/group/sub/bar.md'],
               },
               {
-                text: 'CM启动器错误',
+                text: '音效补丁',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
