@@ -269,7 +269,7 @@ export default defineUserConfig({
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
+                children: ['/zh/Page_mod/car'],
               },
               {
                 text: '地图资源',
@@ -279,18 +279,25 @@ export default defineUserConfig({
                 children: ['/zh/page_download/map'],
               },
               {
+                text: '整合包资源',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/page_download/ConsolidationPack'],
+              },
+              {
                 text: '画质补丁',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/page_online/error', '/group/sub/bar.md'],
+                children: ['/zh/Page_mod/gui'],
               },
               {
                 text: '音效补丁',
                 link: '/',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
+                children: ['/zh/Page_mod/sound'],
               },
             ],
           },
