@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'//返回顶部按钮
 import { containerPlugin } from '@vuepress/plugin-container' //自定义容器
-//import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
+import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
 //import { docsearchPlugin } from '@vuepress/plugin-docsearch' //未来添加的外部搜索API
 import { nprogressPlugin } from '@vuepress/plugin-nprogress'//进度条
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'//图片缩放
