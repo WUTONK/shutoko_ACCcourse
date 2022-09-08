@@ -1,6 +1,12 @@
-# 上海湾岸俱乐部-首页
+---
+class:SHMC
+title:首页
+---
+
+# 上海湾岸俱乐部
 
 ## 我们是谁
+
 
 
 1.SHMNC+日期的压缩包【此压缩包中的内容为车辆】
@@ -10,7 +16,7 @@
 
 1.，由于服务器近期被频繁DDOS攻击，请通过链接进入服务器https://acstuff.ru/s/q:race/online/join?ip=124.221.83.227&httpPort=8081，搜索到服务器收藏后可通过CM搜索。
 2.搜索到服务器后进行车包安装，将下载的SHMNC+日期压缩包解压至AC根目录点击全部替换覆盖，将SRPMAIN091地图包解压至 AC根目录-content-tracks中，重启CM或刷新后方可选车点击加入按钮进入服务器。不推荐使用CM自动安装可能由于杀软原因导致无法进入服务器
-enjoy~
+
 
 ## 如何游玩
 
@@ -33,17 +39,22 @@ enjoy~
 <div align=center> <img src="../imgs/cm/error/cm_setting_lang.png" alt="cm_setting_lang" align=center; style="zoom:30%;" /> </div>
 
 
-2.点击
-
-
 6. 将下载的SHMNC+日期压缩包全选（进入下载到的文件夹后按cltr+A）拖入CM启动器，上方会有一个三个横杠的图标亮起，表示已经检测到了mod
 
 <div align=center> <img src="/imgs/ac/cm_install_button_enable.png" alt="/imgs/ac/cm_install_button_enable" style="zoom: 50%;" /> </div>
 
-7. 点击这个按钮，会看到
+7. 点击这个按钮，会看到安装列表，点击文件中的`安装按钮`或是下方的`全部安装`,
 
-由于服务器频繁被攻击，请点击[进入服务器连接](https://acstuff.ru/s/q:race/online/join?ip=124.221.83.227&httpPort=8081)进入服务器，进入一次之后就可以在CM启动器里的服务器页看到
 
+如果看到的是这个
+
+<div align=center> <img src="../imgs/cm/error/cm_mod_install_connot_Identified.png" alt="../imgs/cm/error/cm_mod_install_connot_Identified" style="zoom: 50%;" /> </div>
+
+或者一直显示在加载内容，[请点击这里尝试修复](/zh/page_CM/error.html#导入mod压缩包文件后无法识别-显示灰色)，如果无效，请[查看如何使用覆盖根目录进行安装]
+
+由于服务器频繁被攻击，需点击[进入服务器链接]进入(https://acstuff.ru/s/q:race/online/join?ip=124.221.83.227&httpPort=8081)进入服务器，进入一次之后就可以在CM启动器里的服务器页看到，无需再使用链接
+
+点击之后浏览器会请求打开CM启动器，点击同意，CM启动器将会打开一个窗口
 ## 遇到问题？
 
 ### 如何诊断
@@ -51,10 +62,6 @@ enjoy~
 可以先查阅[本服务器常见问题指南]()，如果查找不到，可以查找站内的[其他常见问题指南](todo:做一个常见问题诊断液面引导列表页)
 
 如果始终无法找到问题，或者是无法解决，可以[寻求群内帮助](###如何提问)，请先查看文档再提问！
-
-## 常见问题
-
-
 ### 如何提问
 
 1. 文档，群公告能解决的就不要提问，先看群公告
