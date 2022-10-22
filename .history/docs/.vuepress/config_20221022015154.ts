@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'//返回顶部按钮
 import { containerPlugin } from '@vuepress/plugin-container' //自定义容器
-import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
+// import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
 //import { docsearchPlugin } from '@vuepress/plugin-docsearch' //未来添加的外部搜索API
 import { nprogressPlugin } from '@vuepress/plugin-nprogress'//进度条
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'//图片缩放
@@ -18,24 +18,6 @@ export default defineUserConfig({
     nprogressPlugin(),
     mediumZoomPlugin({
       delay: 100 //切换路由后开始生效的延迟时间
-    }),
-    searchPlugin({
-      
-      maxSuggestions : 7,
-      //将首页排除出可搜索名单
-      isSearchable: (page) => page.path !== '/',
-  
-      locales: {
-        '/en/': {
-          placeholder: 'Search',
-        },
-        '/zh/': {
-          placeholder: '搜索',
-        },
-        '/jp/': {
-          placeholder: '搜索',
-        },
-      },
     }),
   ],
 
@@ -58,7 +40,24 @@ export default defineUserConfig({
   },
 
   /*
-  
+  searchPlugin: {
+
+    maxSuggestions = 7
+    //将首页排除出可搜索名单
+    isSearchable: (page) => page.path !== '/',
+
+    locales: {
+      '/en/': {
+        placeholder: 'Search',
+      },
+      '/zh/': {
+        placeholder: '搜索',
+      },
+      '/jp/': {
+        placeholder: '搜索',
+      },
+    },
+  },
   */
   
   //主题设置
@@ -96,11 +95,11 @@ export default defineUserConfig({
         // 404 page
         notFound: [
           "申し訳ありませんが、このサイトはまだ日本語に対応していません。翻訳に参加したい場合は、githubで詳細を確認してください。",
-          // 'ここには何もありません(｡･ω･｡)',
-          // 'どうしてここに来たの？╭(°A°`)╮',
-          // ':(',
-          // 'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
-          // 'このサイトにはbug~があるかもしれません（笑）',
+          'ここには何もありません(｡･ω･｡)',
+          'どうしてここに来たの？╭(°A°`)╮',
+          ':(',
+          'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
+          'このサイトにはbug~があるかもしれません（笑）',
         ],
       },
 
@@ -156,7 +155,7 @@ export default defineUserConfig({
               ],
             },
           ],
-          '/zh/page_shmc/': [
+          './page_shmc/': [
               {
                 text: '上海湾岸午夜俱乐部',
                 collapsible: true,

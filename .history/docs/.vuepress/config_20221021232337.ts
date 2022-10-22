@@ -19,24 +19,6 @@ export default defineUserConfig({
     mediumZoomPlugin({
       delay: 100 //切换路由后开始生效的延迟时间
     }),
-    searchPlugin({
-      
-      maxSuggestions : 7,
-      //将首页排除出可搜索名单
-      isSearchable: (page) => page.path !== '/',
-  
-      locales: {
-        '/en/': {
-          placeholder: 'Search',
-        },
-        '/zh/': {
-          placeholder: '搜索',
-        },
-        '/jp/': {
-          placeholder: '搜索',
-        },
-      },
-    }),
   ],
 
   locales: {
@@ -58,7 +40,24 @@ export default defineUserConfig({
   },
 
   /*
-  
+  searchPlugin: {
+
+    maxSuggestions = 7
+    //将首页排除出可搜索名单
+    isSearchable: (page) => page.path !== '/',
+
+    locales: {
+      '/en/': {
+        placeholder: 'Search',
+      },
+      '/zh/': {
+        placeholder: '搜索',
+      },
+      '/jp/': {
+        placeholder: '搜索',
+      },
+    },
+  },
   */
   
   //主题设置
@@ -96,11 +95,11 @@ export default defineUserConfig({
         // 404 page
         notFound: [
           "申し訳ありませんが、このサイトはまだ日本語に対応していません。翻訳に参加したい場合は、githubで詳細を確認してください。",
-          // 'ここには何もありません(｡･ω･｡)',
-          // 'どうしてここに来たの？╭(°A°`)╮',
-          // ':(',
-          // 'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
-          // 'このサイトにはbug~があるかもしれません（笑）',
+          'ここには何もありません(｡･ω･｡)',
+          'どうしてここに来たの？╭(°A°`)╮',
+          ':(',
+          'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
+          'このサイトにはbug~があるかもしれません（笑）',
         ],
       },
 
@@ -111,7 +110,6 @@ export default defineUserConfig({
         sidebar: {
           
           //给每个导航栏指定配置
-          // 在什么路径下显示
           '/': [
             {
               text: '安装流程',
@@ -125,78 +123,7 @@ export default defineUserConfig({
               collapsible: true,
               children: ['/zh/page_videos/', '/reference/config.md'],
             },
-            {
-              text: '错误诊断',
-              collapsible: true,
-              children: [
-                {
-                  text: '安装错误',
-                  link: '/',
-                  // 该元素将一直处于激活状态         
-                  // activeMatch: '/',
-                  children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
-                },
-                {
-                  text: '线下游戏错误',
-                  link: '/',            
-                   
-                  children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
-                },
-                {
-                  text: '线上游戏错误',
-                  link: '/',               
-                   
-                  children: ['/zh/page_online/error', '/group/sub/bar.md'],
-                },
-                {
-                  text: 'CM启动器错误',
-                  link: '/',                 
-                  children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
-                },
-              ],
-            },
           ],
-          '/zh/page_shmc/': [
-              {
-                text: '上海湾岸午夜俱乐部',
-                collapsible: true,
-                children: [
-                  {
-                    text: '关于我们',
-                    link: '/',
-                    activeMatch: '/',
-                    children: ['/zh/page_shmc/indexes/#关于我们'],
-                  },
-                  {
-                    text: '游玩服务器教程',
-                    link: '/',
-                    activeMatch: '/',
-                    children: ['/zh/page_shmc/indexes/#如何游玩'],
-                  },
-                  {
-                    text: '错误诊断',
-                    link: '/',
-                    activeMatch: '/',
-                    children: ['/zh/page_shmc/indexes/#如何诊断',
-                    '/zh/page_shmc/indexes/#如何提问',],
-                  },
-                  {
-                    text: '必须和推荐资源',
-                    link: '/',
-                     
-                    activeMatch: '/',
-                    children: ['/zh/page_download/ConsolidationPack'],
-                    
-                  },
-                  {
-                    text: '画质补丁',
-                    link: '/',
-                    activeMatch: '/',
-                    children: ['/zh/Page_mod/gui'],
-                  },
-                ],
-              },
-            ],
           
           
         },
@@ -276,7 +203,8 @@ export default defineUserConfig({
             children: [
               {
                 text: '游玩前提',
-                link: '/',     
+                link: '/',
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/sub/', '/group/sub/bar.md'],
               },
@@ -306,24 +234,28 @@ export default defineUserConfig({
               {
                 text: '安装错误',
                 link: '/',
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
-                children: ['/zh/Page_CM/error', '/zh/Page_CM/error'],
+                children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
               },
               {
                 text: '线下游戏错误',
                 link: '/',
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
               },
               {
                 text: '线上游戏错误',
                 link: '/',
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/page_online/error', '/group/sub/bar.md'],
               },
               {
                 text: 'CM启动器错误',
-                link: '/', 
+                link: '/',
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
               },
@@ -335,37 +267,70 @@ export default defineUserConfig({
               {
                 text: '车辆资源',
                 link: '/',
-                 
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/Page_mod/car'],
               },
               {
                 text: '地图资源',
                 link: '/',
-                 
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/page_download/map'],
               },
               {
                 text: '整合包资源',
                 link: '/',
-                 
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/page_download/ConsolidationPack'],
               },
               {
                 text: '画质补丁',
                 link: '/',
-                 
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/Page_mod/gui'],
               },
               {
                 text: '音效补丁',
                 link: '/',
-                 
+                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/Page_mod/sound'],
+              },
+            ],
+          },
+          {
+            text: '上海湾岸午夜俱乐部',
+            children: [
+              {
+                text: '游玩服务器教程',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/Page_mod/car'],
+              },
+              {
+                text: '错误诊断',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/page_download/map'],
+              },
+              {
+                text: '必须和推荐资源',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/page_download/ConsolidationPack'],
+              },
+              {
+                text: '画质补丁',
+                link: '/',
+                // 该元素将一直处于激活状态
+                activeMatch: '/',
+                children: ['/zh/Page_mod/gui'],
               },
             ],
           },
