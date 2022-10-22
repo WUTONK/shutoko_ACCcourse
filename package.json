@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "@vue/component-compiler-utils": "^3.3.0",
-    "@vuepress/shared-utils": "^1.9.7",
-    "pnpm": "link:@vuepress/plugin-search"
+    "@vuepress/shared-utils": "^1.9.7"
   }
 }

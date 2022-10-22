@@ -7,7 +7,6 @@ specifiers:
   '@vuepress/plugin-search': 2.0.0-beta.51
   '@vuepress/shared-utils': ^1.9.7
   eslint: ^8.15.0
-  pnpm: link:@vuepress/plugin-search
   postcss: ^8.4.13
   typescript: ^4.6.4
   vue: ^3.2.33
@@ -17,7 +16,6 @@ specifiers:
 dependencies:
   '@vue/component-compiler-utils': 3.3.0
   '@vuepress/shared-utils': 1.9.7
-  pnpm: link:@vuepress/plugin-search
 
 devDependencies:
   '@kecrily/eslint-config': 0.1.3_hcfsmds2fshutdssjqluwm76uu
