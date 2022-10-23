@@ -53,9 +53,9 @@ title: 上海湾岸俱乐部
 
 7. 将下载的SHMNC+日期压缩包全选（进入下载到的文件夹后按cltr+A）拖入CM启动器，上方会有一个三个横杠的图标亮起，表示已经检测到了mod
 
-<div align=center> <img src="/imgs/ac/cm_install_button_enable.png" alt="/imgs/ac/cm_install_button_enable" style="zoom: 50%;" /> </div>
+<div align=center> <img src="/imgs/cm/cm_install_button_enable.png" alt="/imgs/cm/cm_install_button_enable" style="zoom: 50%;" /> </div>
 
-8. 点击这个按钮，会看到安装列表，点击文件中的`安装按钮`或是下方的`全部安装`
+1. 点击这个按钮，会看到安装列表，点击文件中的`安装按钮`或是下方的`全部安装`
 
 ::: tip 提示
 如果看到的是这个
