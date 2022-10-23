@@ -19,24 +19,24 @@ export default defineUserConfig({
     mediumZoomPlugin({
       delay: 50 //切换路由后开始生效的延迟时间
     }),
-    // searchPlugin({
+    searchPlugin({
 
-    //   maxSuggestions : 7,
-    //   //将首页排除出可搜索名单
-    //   isSearchable: (page) => page.path !== '/',
+      maxSuggestions : 7,
+      //将首页排除出可搜索名单
+      isSearchable: (page) => page.path !== '/',
 
-    //   locales: {
-    //     '/en/': {
-    //       placeholder: 'Search',
-    //     },
-    //     '/zh/': {
-    //       placeholder: '搜索',
-    //     },
-    //     '/jp/': {
-    //       placeholder: '検索',
-    //     },
-    //   },
-    // }),
+      locales: {
+        '/en/': {
+          placeholder: 'Search',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+        '/jp/': {
+          placeholder: '検索',
+        },
+      },
+    }),
   ],
 
   locales: {
