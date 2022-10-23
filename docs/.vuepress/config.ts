@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default' //默认主题
 import { localeRedirectPlugin } from 'vuepress-plugin-locale-redirect'//本地重定向包，根据本地语言进行自动重定向
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'//返回顶部按钮
 import { containerPlugin } from '@vuepress/plugin-container' //自定义容器
-//import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
+import { searchPlugin } from '@vuepress/plugin-search' // 本地搜索插件
 //import { docsearchPlugin } from '@vuepress/plugin-docsearch' //未来添加的外部搜索API
 import { nprogressPlugin } from '@vuepress/plugin-nprogress'//进度条
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'//图片缩放
@@ -17,15 +17,33 @@ export default defineUserConfig({
     backToTopPlugin(),
     nprogressPlugin(),
     mediumZoomPlugin({
-      delay: 100 //切换路由后开始生效的延迟时间
+      delay: 50 //切换路由后开始生效的延迟时间
+    }),
+    searchPlugin({
+
+      maxSuggestions : 7,
+      //将首页排除出可搜索名单
+      isSearchable: (page) => page.path !== '/',
+
+      locales: {
+        '/en/': {
+          placeholder: 'Search',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+        '/jp/': {
+          placeholder: '検索',
+        },
+      },
     }),
   ],
 
   locales: {
     '/zh/': {
       lang: 'zh-CN',
-      title: '首都高复活计划',  
-      description: '首都高复活计划教程文档',
+      title: '首都高复活计划',
+      description: '首都高复活计划文档',
     },
     '/en/': {
       lang: 'en',
@@ -35,31 +53,10 @@ export default defineUserConfig({
     '/ja/': {
       lang: 'jp',
       title: '首都高再生計画',
-      description: '首都高再生計画文档', 
+      description: '首都高再生計画文档',
     },
   },
 
-  /*
-  searchPlugin: {
-
-    maxSuggestions = 7
-    //将首页排除出可搜索名单
-    isSearchable: (page) => page.path !== '/',
-
-    locales: {
-      '/en/': {
-        placeholder: 'Search',
-      },
-      '/zh/': {
-        placeholder: '搜索',
-      },
-      '/jp/': {
-        placeholder: '搜索',
-      },
-    },
-  },
-  */
-  
   //主题设置
   theme: defaultTheme({
     //public下的路径
@@ -68,19 +65,19 @@ export default defineUserConfig({
     smoothScroll: true, //切换页面时平滑滚动
 
     locales: {
-      '/en/': { 
+      '/en/': {
         selectLanguageName: 'English',
-        
+
         notFound: [
           " There's nothing here~ ",
           'Why are you here?',
           ':(',
           'See if the link is wrong?',
         ],
-        },
-      
+      },
+
       //日语
-      '/jp/': { 
+      '/jp/': {
         // 多语言下拉菜单的标题
         selectLanguageText: '言語変更',
         // 该语言在下拉菜单中的标签
@@ -95,42 +92,127 @@ export default defineUserConfig({
         // 404 page
         notFound: [
           "申し訳ありませんが、このサイトはまだ日本語に対応していません。翻訳に参加したい場合は、githubで詳細を確認してください。",
-          'ここには何もありません(｡･ω･｡)',
-          'どうしてここに来たの？╭(°A°`)╮',
-          ':(',
-          'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
-          'このサイトにはbug~があるかもしれません（笑）',
+          // 'ここには何もありません(｡･ω･｡)',
+          // 'どうしてここに来たの？╭(°A°`)╮',
+          // ':(',
+          // 'リンクの入力が間違っているかどうか見てみましょう？_(:з」∠)_',
+          // 'このサイトにはbug~があるかもしれません（笑）',
         ],
       },
 
       //中文
       '/zh/': {
-        
         //侧边栏
         sidebar: {
-          
           //给每个导航栏指定配置
+          // 在什么路径下显示
           '/': [
             {
               text: '安装流程',
               collapsible: true, //可折叠显示
               children: ['/']
               ['/guide/getting-started.md'],
-      
+
             },
             {
-              text: '',
+              text: '教程视频',
               collapsible: true,
-              children: ['/reference/cli.md', '/reference/config.md'],
+              children: ['/zh/page_videos/', '/reference/config.md'],
+            },
+            {
+              text: '错误诊断',
+              collapsible: true,
+              children: [
+                {
+                  text: '安装错误',
+                  link: '/',
+                  // 该元素将一直处于激活状态         
+                  // activeMatch: '/',
+                  children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
+                },
+                {
+                  text: '线下游戏错误',
+                  link: '/',
+                  children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                },
+                {
+                  text: '线上游戏错误',
+                  link: '/',
+                  children: ['/zh/page_online/error', '/group/sub/bar.md'],
+                },
+                {
+                  text: 'CM启动器错误',
+                  link: '/',
+                  children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
+                },
+              ],
             },
           ],
-          
-          
+          ['/zh/page_shmc/']: [
+            {
+              text: '上海湾岸午夜俱乐部',
+              collapsible: true,
+              children: [
+                {
+                  text: '关于',
+                  link: '/zh/page_shmc/indexes/#关于我们',
+                  activeMatch: '/',
+                  children: [
+                    {
+                      text: '关于我们',
+                      link: '/zh/page_shmc/indexes/#关于我们',
+                      activeMatch: '/'
+                    },
+                  ],
+                },
+                {
+                  text: '游玩服务器教程',
+                  link: '/',
+                  activeMatch: '/',
+                  children: ['/zh/page_shmc/indexes/#如何游玩'],
+                },
+                {
+                  text: '错误诊断',
+                  link: '/zh/page_shmc/indexes/#如何诊断',
+                  activeMatch: '/',
+                  children: [
+                    {
+                      text: '如何诊断',
+                      link: '/zh/page_shmc/indexes/#如何诊断',
+                      activeMatch: '/'
+                    },
+                  ],
+                },
+                {
+                  text: '如何提问',
+                  link: '/zh/page_shmc/indexes/#如何提问',
+                  activeMatch: '/',
+                  children: [],
+                },
+                {
+                  text: '必须和推荐资源',
+                  link: '/',
+
+                  activeMatch: '/',
+                  children: ['/zh/page_download/ConsolidationPack'],
+
+                },
+                {
+                  text: '画质补丁',
+                  link: '/',
+                  activeMatch: '/',
+                  children: ['/zh/Page_mod/gui'],
+                },
+              ],
+            },
+          ],
+
+
         },
-        sidebarDepth:2,     //侧边栏深度，这里到h3标题
+        sidebarDepth: 2,     //侧边栏深度，这里到h3标题
         nextLinks: true,    // 根据侧边栏目录，显示到下一个页面的链接
         prevLinks: true,    // 根据侧边栏目录，显示到上一个页面的链接
-        
+
         /*
         sidebar: [
         {
@@ -160,7 +242,7 @@ export default defineUserConfig({
         // 多语言下拉菜单的标题
         selectLanguageText: '语言',
         // 该语言在下拉菜单中的标签
-        selectLanguageName: '中文',
+        selectLanguageName: '简体中文',
         // 编辑链接文字
         editLinkText: '在GitHub编辑此页',
         lastUpdatedText: '上次更新',
@@ -170,13 +252,13 @@ export default defineUserConfig({
 
         // 404 page
         notFound: [
-          '这里什么都没有',
+          '这里什么都没有(｡･ω･｡)',
           '你怎么到这来了？',
           ':(',
-          '看看是不是链接打错了？',
+          '看看是不是链接打错了？_(:з」∠)_',
           '可能我们网站有什么bug~',
         ],
-        
+
         //标题栏
         navbar: [
           // 工具 - 最大深度为 2
@@ -185,11 +267,15 @@ export default defineUserConfig({
             children: [
               {
                 text: 'CM启动器',
-                children: ['/zh/page_CM/install', '/zh/page_CM/use'],
+                children: ['/zh/page_CM/install', '/zh/page_errors/error_cm'],
+              },
+              {
+                text: '数显',
+                children: [],
               },
               {
                 text: '数据修改器',
-                children: ['/zh/page_Modifier/install', '/zh/page_Modifier/car'],
+                children: ['/zh/page_Modifier/install'],
               },
               {
                 text: 'vjoy',
@@ -204,7 +290,6 @@ export default defineUserConfig({
               {
                 text: '游玩前提',
                 link: '/',
-                // 该元素将一直处于激活状态
                 activeMatch: '/',
                 children: ['/zh/sub/', '/group/sub/bar.md'],
               },
@@ -221,7 +306,7 @@ export default defineUserConfig({
                 link: '/',
                 children: [],
               },
-               {
+              {
                 text: '查看日志',
                 link: '/not-foo/',
                 children: [],
@@ -229,46 +314,50 @@ export default defineUserConfig({
             ],
           },
           {
-            text: '错误诊断',
+            text: '资源',
             children: [
               {
-                text: '安装错误',
-                link: '/',
-                // 该元素将一直处于激活状态
+                text: '车辆资源',
+                link: '/zh/Page_mod/car',
                 activeMatch: '/',
-                children: ['/zh/Page_CM/error', '/zh/Page_CM/erro'],
+                children: [],
               },
               {
-                text: '线下游戏错误',
-                link: '/',
-                // 该元素将一直处于激活状态
+                text: '地图资源',
+                link: '/zh/page_download/map',
                 activeMatch: '/',
-                children: ['/zh/sub/foo.md', '/group/sub/bar.md'],
+                children: [],
               },
               {
-                text: '线上游戏错误',
-                link: '/',
-                // 该元素将一直处于激活状态
+                text: '整合包资源',
+                link: '/zh/page_download/ConsolidationPack',
                 activeMatch: '/',
-                children: ['/zh/page_online/error', '/group/sub/bar.md'],
+                children: [],
               },
               {
-                text: 'CM启动器错误',
-                link: '/',
-                // 该元素将一直处于激活状态
+                text: '画质补丁',
+                link: '/zh/Page_mod/gui',
                 activeMatch: '/',
-                children: ['/zh/Page_CM/error', '/group/sub/bar.md'],
+                children: [],
+              },
+              {
+                text: '音效补丁',
+                link: '/zh/Page_mod/sound',
+                activeMatch: '/',
+                children: [],
               },
             ],
           },
         ],
 
+
+
         //
 
       }//zh结束
 
-      
-    }, 
+
+    },
 
 
   })
