@@ -1,0 +1,1 @@
+const e={key:"v-5dba7f44",path:"/en/page_performance/performanceRequirement.html",title:"\u6027\u80FD\u8981\u6C42",lang:"en",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:166671401e4,contributors:[{name:"WUZITONG",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"en/page_performance/performanceRequirement.md"};export{e as data};

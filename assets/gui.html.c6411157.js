@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,d as r,a as c}from"./app.91ff963a.js";const o={},s={id:"ui\u6A21\u7EC4\u63A8\u8350",tabindex:"-1"},_=c("a",{class:"header-anchor",href:"#ui\u6A21\u7EC4\u63A8\u8350","aria-hidden":"true"},"#",-1);function i(n,d){return a(),t("h1",s,[_,r(" UI\u6A21\u7EC4\u63A8\u8350")])}var u=e(o,[["render",i],["__file","gui.html.vue"]]);export{u as default};
