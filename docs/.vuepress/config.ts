@@ -19,6 +19,7 @@ export default defineUserConfig({
     mediumZoomPlugin({
       delay: 50 //切换路由后开始生效的延迟时间
     }),
+    // 本地搜索插件
     searchPlugin({
 
       maxSuggestions : 7,
