@@ -1,1 +1,0 @@
-const e={key:"v-fbf323b2",path:"/en/page_Getting/indexes.html",title:"",lang:"en",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:166671401e4,contributors:[{name:"WUZITONG",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"en/page_Getting/indexes.md"};export{e as data};

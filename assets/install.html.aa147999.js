@@ -1,0 +1,1 @@
+const t={key:"v-184a1554",path:"/zh/page_viewLog/install.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1677515735e3,contributors:[{name:"WUTONK",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"zh/page_viewLog/install.md"};export{t as data};
