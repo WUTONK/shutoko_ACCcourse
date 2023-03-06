@@ -1,10 +1,11 @@
 ---
 class: SHMC
-title: 上海湾岸俱乐部
+title: 上海湾岸俱乐部 
 ---
 
 # 上海湾岸俱乐部
 `此站仍是测试阶段，可能会出现bug和内容缺失的情况，下载功能还未上线，请勿使用，安装文件请在群文件内寻找`
+
 ## 关于我们
 
 上海湾岸午夜俱乐部是一个国内的首都高服务器，旨在为国内玩家提供一个低延迟，本地化的游玩环境
@@ -103,6 +104,10 @@ title: 上海湾岸俱乐部
 6. 不要刷屏！！！
 
 <div align=center> <img src="../imgs/group/asking/ask_zhcn_01.jpeg" alt="../imgs/group/asking/ask_zhcn_01" style="zoom: 40%;" /> </div>
+
+------
+
+<div align=center> <b style="font-family: Georgia, serif;">人と人　車と車　伝説が伝説を呼ぶ　湾岸ストーリーが　今　始まる</b> </div>
 
 <!-- ## 下载资源
 

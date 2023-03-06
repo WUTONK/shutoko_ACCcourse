@@ -21,7 +21,7 @@ footer:
         <style>
         div.footer{margin-top:5%}
         </style>
- MIT Licensed | © 2022 WUTONK 保留所有权利
+ 人と人　車と車　伝説が伝説を呼ぶ　湾岸ストーリーが　今　始まる
 footerHtml: ture
 
 # features:
