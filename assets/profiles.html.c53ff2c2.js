@@ -1,1 +1,0 @@
-const t={key:"v-30fdfcfc",path:"/zh/page_Getting/profiles.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1677515735e3,contributors:[{name:"WUTONK",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"zh/page_Getting/profiles.md"};export{t as data};

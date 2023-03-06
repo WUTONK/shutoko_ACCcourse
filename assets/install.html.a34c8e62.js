@@ -1,1 +1,0 @@
-const e={key:"v-eac881de",path:"/en/page_viewLog/install.html",title:"",lang:"en",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1677515735e3,contributors:[{name:"WUTONK",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"en/page_viewLog/install.md"};export{e as data};
