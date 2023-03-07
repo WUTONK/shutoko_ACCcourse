@@ -1,0 +1,1 @@
+const t={key:"v-3683bd0e",path:"/zh/page_about/shutoko_revival_project.html",title:"\u9996\u90FD\u9AD8\u590D\u6D3B\u8BA1\u5212",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1678163267e3,contributors:[{name:"WUTONK",email:"wjt474696120@gmail.com",commits:1}]},filePathRelative:"zh/page_about/shutoko_revival_project.md"};export{t as data};
