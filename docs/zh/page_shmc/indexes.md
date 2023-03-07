@@ -1,10 +1,11 @@
 ---
 class: SHMC
-title: 上海湾岸俱乐部
+title: 上海湾岸俱乐部 
 ---
 
 # 上海湾岸俱乐部
-`此站仍是测试阶段，可能会出现bug和内容缺失的情况`
+`此站仍是测试阶段，可能会出现bug和内容缺失的情况，下载功能还未上线，请勿使用，安装文件请在群文件内寻找`
+
 ## 关于我们
 
 上海湾岸午夜俱乐部是一个国内的首都高服务器，旨在为国内玩家提供一个低延迟，本地化的游玩环境
@@ -48,26 +49,18 @@ title: 上海湾岸俱乐部
 
 1. 请先加入我们的QQ群，群号：610506778，
 
-2. 进入后，点击[这个链接](https://www.ip138.com) ，里面会显示你的ip地址
-
-<div align=center> <img src="../imgs/SHMC/indexes/ip138.png" alt="../imgs/SHMC/indexes/ip138" style="zoom: 50%;" /> </div>
-
-3. 将其和浏览器一起截图（截图快捷键win+shift+s）并私聊发送给名称叫“熊”的管理(不用加好友)。管理确认后会发送`1`
-
-<div align=center> <img src="../imgs/SHMC/indexes/admin_xiong.png" alt="../imgs/SHMC/indexes/admin_xiong" style="zoom: 50%;" /> </div>
-
-4. 下载群文件中的标明了`（必须下载）`的文件夹,和`缺少单个车包此处寻找`下的所有文件，并`关闭所有的杀毒软件！！`。SHMNC+日期的压缩包为车辆、SRP MAIN0.9.1_OFFICIAL.7z为首都高地图
+2. 下载群文件中的标明了`（必须下载）`的文件夹,和`缺少单个车包此处寻找`下的所有文件，并`关闭所有的杀毒软件！！`。SHMNC+日期的压缩包为车辆、SRP MAIN0.9.1_OFFICIAL.7z为首都高地图
 
 <div align=center> <img src="../imgs/SHMC/indexes/qq_group_files.png" alt="../imgs/SHMC/indexes/admin_xiong" style="zoom: 50%;" /> </div>
 
-5. 下载AC灯光终极整合包后双击运行安装至AC游戏根目录，安装完毕后启动content manger.exe进行设置
+3. 下载AC灯光终极整合包后双击运行安装至AC游戏根目录，安装完毕后启动content manger.exe进行设置
 
-6. 将CM启动器设置为中文，步骤：点击顶部的`SETTINGS` → `LANGUAGE & REGIONAL`，在界面的`Language`选项中找到你想要的语言，点击，稍等片刻后点击下方的`Restart`按钮(重启按钮)即可，如果没有看到中文选项或选择并重启后未出现你设置的语言是正常现象，说明语言包还在加载，稍等2分钟后即可。
+4. 将CM启动器设置为中文，步骤：点击顶部的`SETTINGS` → `LANGUAGE & REGIONAL`，在界面的`Language`选项中找到你想要的语言，点击，稍等片刻后点击下方的`Restart`按钮(重启按钮)即可，如果没有看到中文选项或选择并重启后未出现你设置的语言是正常现象，说明语言包还在加载，稍等2分钟后即可。
 
 <div align=center> <img src="../imgs/cm/error/cm_setting_lang.png" alt="cm_setting_lang" align=center; style="zoom:30%;" /> </div>
 
 
-7. 将下载的SHMNC+日期压缩包全选（进入下载到的文件夹后按cltr+A）拖入CM启动器，上方会有一个三个横杠的图标亮起，表示已经检测到了mod
+5. 将下载的SHMNC+日期压缩包全选（进入下载到的文件夹后按cltr+A）拖入CM启动器，上方会有一个三个横杠的图标亮起，表示已经检测到了mod
 
 <div align=center> <img src="/imgs/cm/cm_install_button_enable.png" alt="/imgs/cm/cm_install_button_enable" style="zoom: 50%;" /> </div>
 
@@ -111,6 +104,10 @@ title: 上海湾岸俱乐部
 6. 不要刷屏！！！
 
 <div align=center> <img src="../imgs/group/asking/ask_zhcn_01.jpeg" alt="../imgs/group/asking/ask_zhcn_01" style="zoom: 40%;" /> </div>
+
+------
+
+<div align=center> <b style="font-family: Georgia, serif;">人と人　車と車　伝説が伝説を呼ぶ　湾岸ストーリーが　今　始まる</b> </div>
 
 <!-- ## 下载资源
 
