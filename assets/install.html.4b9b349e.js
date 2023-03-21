@@ -1,0 +1,1 @@
+const t={key:"v-2bb3d30c",path:"/zh/page_shmc/install.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1679364408e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_shmc/install.md"};export{t as data};

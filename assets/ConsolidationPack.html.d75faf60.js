@@ -1,0 +1,1 @@
+const t={key:"v-457128e9",path:"/zh/page_mod/ConsolidationPack.html",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1679364408e3,contributors:[{name:"WUTONK",email:"76605143+WUTONK@users.noreply.github.com",commits:1}]},filePathRelative:"zh/page_mod/ConsolidationPack.md"};export{t as data};
